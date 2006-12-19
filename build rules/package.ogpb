@@ -1,0 +1,113 @@
+[Package Name]
+
+Name=oglib_array
+
+Version=2.5alpha
+
+Release=1
+
+
+[Description]
+
+Description="The array package contains several routines for operating on array data."
+
+Summary="OpenG Array Tools"
+
+License=BSD
+
+Copyright="2002-2006 Cal-Bay Systems, Inc., Jim Kring.  2006 MKS Instruments, Inc.  All rights reserved."
+
+Distribution="OpenG Toolkit"
+
+Icon=../source/icon.bmp
+
+Vendor=OpenG.org
+
+URL=http://opengtoolkit.sourceforge.net/array
+
+Packager="Jim Kring <jim@jimkring.com>"
+
+
+[Dependencies]
+
+Requires=ogrsc_dynamicpalette>=2.0,nirsc_html_help_common>=1.0,oglib_error>=2.0,oglib_string>=2.0,oglib_lvdata>=2.0
+
+AutoReqProv=FALSE
+
+
+[Platform]
+
+Exclusive_LabVIEW_Version=>=6.1
+
+Exclusive_LabVIEW_System=All
+
+Exclusive_OS=All
+
+
+[Files]
+
+Num File Groups=3
+
+
+[File Group 0]
+
+Source Dir=../built/library
+
+Target Dir=<OpenG.lib>/array
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0="array.llb/*"
+
+
+[File Group 1]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/arrclust"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_array.mnu
+
+
+[File Group 2]
+
+Source Dir="../source"
+
+Target Dir="<user.lib>/_dynamicpalette_dirs/OpenG"
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=oglib_array.mnu
+
+
+[File Group 3]
+
+Source Dir=../built/help
+
+Target Dir=<help>/OpenG/array
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=*.*
+
+
+[File Group 4]
+Source Dir=../examples
+
+Target Dir=<application>/examples/OpenG/array
+
+Replace Mode=Always
+
+Num Files=1
+
+File 0=*.*

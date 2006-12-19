@@ -1,0 +1,6 @@
+2004-03-28 
+[MOD] "Filter 1D Array.vi" - Optimized by calling Conditional
+      Auto-indexing Tunnel.
+[MOD] "Conditional Auto-Indexing Tunnel.vi" added more polyVI
+      members: I16, I8, U16, U32, U8, CXT, CDB, CSG, EXT, SGL,
+      Bool, CTL-REF, GEN-REF, VI-REF, GObj-REF
