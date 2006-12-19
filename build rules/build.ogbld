@@ -68,7 +68,7 @@ Source Dir="."
 # source hierarchy which is located beneath Source Directory,
 # except for those VIs and CTLs found beneath a subdirectory
 # specified as a Source Dir of another Destination. 
-Target Dir="time.llb"
+Target Dir="array.llb"
 
 # If TRUE, then the Target Dir will be converted into an LLB.
 # This setting may be overrided by the Convert Target to EXE
