@@ -1,3 +1,4 @@
 2006-12-19
-[FIX] Made all inputs of Conditional Auto-Indexing Tunnel required.
 [MOD] Changed license to LGPL
+[FIX] Made all inputs of "Conditional Auto-Indexing Tunnel" required.
+[FIX] Made input of "Remove Duplicates from 1D Array" required.
