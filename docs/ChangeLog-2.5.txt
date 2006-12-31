@@ -1,5 +1,5 @@
 2006-12-19
-[MOD] Changed license to LGPL
+[MOD] Changed license to BSD
 [FIX] Made all inputs of "Conditional Auto-Indexing Tunnel" required
 [FIX] Made input of "Remove Duplicates from 1D Array" required
 [FIX] Added VI description to "Remove Duplicates from 1D Array"
