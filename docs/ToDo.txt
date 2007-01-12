@@ -1,0 +1,1 @@
+- Create an Index Array that accepts an array of indices as an input
