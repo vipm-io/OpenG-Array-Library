@@ -33,6 +33,9 @@ Call Post-Build VI="build support/Pre-Post Build.vi"
 Call-Back VI 1="build support/Build Call-Back VI.vi"
 Allow CBVI & Build Hierarchy Overlap=TRUE
 
+New Build Root=TRUE
+
+
 ###########################################################
 # Top Level VIs specifies VIs whose hierarchies are to be
 # included in the build. Additionally, Top Level VIs will
