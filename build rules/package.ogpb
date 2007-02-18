@@ -15,7 +15,7 @@ Summary="OpenG Array Tools"
 
 License=BSD
 
-Copyright="2002-2006 Cal-Bay Systems, Inc., Jim Kring.  2006 MKS Instruments, Inc.  All rights reserved."
+Copyright="2002-2007 Cal-Bay Systems, Inc., Jim Kring.  2006-2007 MKS Instruments, Inc.  All rights reserved."
 
 Distribution="OpenG Toolkit"
 
@@ -25,7 +25,7 @@ Vendor=OpenG.org
 
 URL=http://opengtoolkit.sourceforge.net/array
 
-Packager="Jim Kring <jim@jimkring.com>"
+Packager="Jim Kring <jim@jimkring.com>, Doug Femec <doug_femec@mksinst.com>"
 
 
 [Dependencies]
