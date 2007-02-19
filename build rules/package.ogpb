@@ -68,7 +68,7 @@ Exclusive_LabVIEW_Version=>=7.0
 
 Source Dir="../source 7.x"
 
-Target Dir="<user.lib>/<OpenG.lib>/array/array.llb/"
+Target Dir="<OpenG.lib>/array/array.llb/"
 
 Replace Mode=Always
 
