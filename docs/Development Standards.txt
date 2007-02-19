@@ -1,1 +1,5 @@
 * For all polymorphic array functions, the member that handles the DBL datatype should the default member, for consistency with LabVIEW Array primitives
+
+* All poly members should have the same VI Description, for simplicity of development process
+
+* "Index Array Elements" poly VI has slightly different settings in 7.0 (and greater).  After doing a build, a copy of "Index Array Elements" is modified such that member icons are shown, and poly VI icon is the 1D array member icon.
