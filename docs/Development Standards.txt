@@ -1,0 +1,1 @@
+* For all polymorphic array functions, the member that handles the DBL datatype should the default member, for consistency with LabVIEW Array primitives
