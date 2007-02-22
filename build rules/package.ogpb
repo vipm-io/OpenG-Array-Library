@@ -30,7 +30,7 @@ Packager="Jim Kring <jim@jimkring.com>, Doug Femec <doug_femec@mksinst.com>"
 
 [Dependencies]
 
-Requires=ogrsc_dynamicpalette>=2.0,nirsc_html_help_common>=1.0,oglib_error>=2.0,oglib_string>=2.0,oglib_lvdata>=2.0
+Requires=ogrsc_dynamicpalette>=0.2,nirsc_html_help_common>=1.0,oglib_error>=2.0,oglib_string>=2.0,oglib_lvdata>=2.0
 
 AutoReqProv=FALSE
 
