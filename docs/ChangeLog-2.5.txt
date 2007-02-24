@@ -1,4 +1,4 @@
-2007-02-18
+2007-02-24
 [MOD] Changed license to BSD
 [FIX] Made all inputs of "Conditional Auto-Indexing Tunnel" required
 [FIX] Made input of "Remove Duplicates from 1D Array" required
@@ -6,7 +6,6 @@
 [FIX] Added VI description to "Reverse 2D Array"
 [FIX] Added VI description to "Conditional Auto-Indexing Tunnel"
 [MOD] "Empty Array" was changed to a polymorphic VI
-[NEW] Added new VI "Append or Replace Array Element" that allows allows easy append or replace
 [NEW] Added new VI "Reorder Array" that allows reordering an array by pointers
 [NEW] Added new VI "Search Array" that returns all matching elements
 [NEW] Added new VI "Sort Array" that handles both 1D and 2D arrays and allows specifying ascending or descending order
