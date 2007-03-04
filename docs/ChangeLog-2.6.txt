@@ -1,0 +1,2 @@
+2007-03-04
+[NEW] Added new VI "Delete Elements from Array" that allows deleting an array with an array of indices (pointers)
