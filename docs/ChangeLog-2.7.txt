@@ -1,0 +1,4 @@
+2007-03-27 
+[NEW] "Delete Elements from Array" deletes elements from a 1D or 2D array using an array of indices (pointers)
+[NEW] "Reorder Array2" reorders a 1D or 2D array.  2D arrays are reodered by row or column
+[MOD] Deprecated "Reorder Array", which is superceded by "Reorder Array2"

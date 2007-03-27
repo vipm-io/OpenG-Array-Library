@@ -1,0 +1,4 @@
+This release (1) ads a new VI "Reorder Array" that allows deleting 
+elements from an array by pointers, (2) deprecates "Reorder Array" 
+superceded by "Reorder Array2" that reorders 1D or 2D arrays by 
+pointers, and (3)  other fixes and improvements (see changelog).
