@@ -1,3 +1,8 @@
+[2.6]
+date=2007-03-28
+release_id=497075
+md5=60f3cc134d73e64ed9fe3d44dbcf70cf
+
 [2.5]
 date=2007-02-24
 release_id=488941
