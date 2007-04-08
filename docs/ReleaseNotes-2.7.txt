@@ -1,1 +1,5 @@
-This release adds ability to wire scalar values of "Items to Filter" to "Filter 1D Array" polymorphic VI.
+This release adds the following improvements to "Filter 1D Array": 
+added poly members for scalar value of "items to filter", added 
+"filtered item indices" (pointer array) output, refactored code to 
+use "Search Array" and "Delete Elements from Array", improved VI 
+description.

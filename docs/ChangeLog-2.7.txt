@@ -1,2 +1,5 @@
-2007-04-07
-[MOD] Added poly members to "Filter 1D Array" for scalar value of "items to filter"
+2007-04-08
+[MOD] In "Filter 1D Array", added poly members for scalar value of "items to filter"
+[MOD] In "Filter 1D Array", added filtered item indices (pointer array) output.
+[MOD] In "Filter 1D Array", refactored code to use "Search Array" and "Delete Elements from Array"
+[MOD] In "Filter 1D Array", improved VI description
