@@ -1,0 +1,3 @@
+Changelog for Openg Array Toolkit version 3.0
+
+[CHANGE] Recompiled source into LabVIEW 8.2
