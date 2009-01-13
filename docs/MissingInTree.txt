@@ -1,0 +1,7 @@
+The following files\folders in the Source directory aren't included in the Tree VI:
+- Append or Replace Array Element
+- Initialize Array from Array
+- Append or Replace Array Element.vi
+- Initialize Array from Array.vi
+
+XXX-files 
