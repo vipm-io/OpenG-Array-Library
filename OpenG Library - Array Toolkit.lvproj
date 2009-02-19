@@ -247,14 +247,16 @@
                <Item Name="Conditional Auto-Indexing Tunnel (EXT).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (EXT).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (GEN-REF).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (GEN-REF).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (GObj-REF).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (GObj-REF).vi"/>
+               <Item Name="Conditional Auto-Indexing Tunnel (I8).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (I8).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (I16).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (I16).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (I32).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (I32).vi"/>
-               <Item Name="Conditional Auto-Indexing Tunnel (I8).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (I8).vi"/>
+               <Item Name="Conditional Auto-Indexing Tunnel (I64).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (I64).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (Path).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (Path).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (SGL).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (SGL).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (String).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (String).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (U16).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U16).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (U32).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U32).vi"/>
+               <Item Name="Conditional Auto-Indexing Tunnel (U64).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U64).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (U8).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U8).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (Variant).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (Variant).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (VI-REF).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (VI-REF).vi"/>
@@ -268,12 +270,14 @@
                <Item Name="Delete Elements from 1D Array (EXT).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (EXT).vi"/>
                <Item Name="Delete Elements from 1D Array (I16).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I16).vi"/>
                <Item Name="Delete Elements from 1D Array (I32).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I32).vi"/>
+               <Item Name="Delete Elements from 1D Array (I64).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I64).vi"/>
                <Item Name="Delete Elements from 1D Array (I8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I8).vi"/>
                <Item Name="Delete Elements from 1D Array (Path).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (Path).vi"/>
                <Item Name="Delete Elements from 1D Array (SGL).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (SGL).vi"/>
                <Item Name="Delete Elements from 1D Array (String).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (String).vi"/>
                <Item Name="Delete Elements from 1D Array (U16).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U16).vi"/>
                <Item Name="Delete Elements from 1D Array (U32).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U32).vi"/>
+               <Item Name="Delete Elements from 1D Array (U64).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U64).vi"/>
                <Item Name="Delete Elements from 1D Array (U8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U8).vi"/>
                <Item Name="Delete Elements from 1D Array (Variant).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (Variant).vi"/>
                <Item Name="Delete Elements from 1D Array (xxx).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (xxx).vi"/>
@@ -1157,11 +1161,13 @@
          <Item Name="TEST - Initialize Array to Boolean Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Boolean Array.vi"/>
          <Item Name="TEST - Initialize Array to DBL Array.vi" Type="VI" URL="tests/TEST - Initialize Array to DBL Array.vi"/>
          <Item Name="TEST - Initialize Array to EXT Array.vi" Type="VI" URL="tests/TEST - Initialize Array to EXT Array.vi"/>
+         <Item Name="TEST - Initialize Array to I64 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I64 Array.vi"/>
          <Item Name="TEST - Initialize Array to I16 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I16 Array.vi"/>
          <Item Name="TEST - Initialize Array to I32 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I32 Array.vi"/>
          <Item Name="TEST - Initialize Array to I8 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I8 Array.vi"/>
          <Item Name="TEST - Initialize Array to Path Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Path Array.vi"/>
          <Item Name="TEST - Initialize Array to String Array.vi" Type="VI" URL="tests/TEST - Initialize Array to String Array.vi"/>
+         <Item Name="TEST - Initialize Array to U64 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U64 Array.vi"/>
          <Item Name="TEST - Initialize Array to U16 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U16 Array.vi"/>
          <Item Name="TEST - Initialize Array to U32 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U32 Array.vi"/>
          <Item Name="TEST - Initialize Array to U8 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U8 Array.vi"/>
