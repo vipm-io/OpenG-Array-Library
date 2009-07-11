@@ -2,7 +2,7 @@
 
 Name=oglib_array
 
-Version=2.7
+Version=3.0.0
 
 Release=1
 
@@ -37,7 +37,7 @@ AutoReqProv=FALSE
 
 [Platform]
 
-Exclusive_LabVIEW_Version=>=6.1
+Exclusive_LabVIEW_Version=>=8.2
 
 Exclusive_LabVIEW_System=All
 
@@ -46,7 +46,7 @@ Exclusive_OS=All
 
 [Files]
 
-Num File Groups=6
+Num File Groups=5
 
 
 [File Group 0]
@@ -64,21 +64,6 @@ File 0="array.llb/*"
 
 [File Group 1]
 
-Exclusive_LabVIEW_Version=>=7.0
-
-Source Dir="../source 7.x"
-
-Target Dir="<OpenG.lib>/array/array.llb/"
-
-Replace Mode=Always
-
-Num Files=1
-
-File 0=*
-
-
-[File Group 2]
-
 Source Dir="../source"
 
 Target Dir="<user.lib>/_dynamicpalette_dirs/arrclust"
@@ -90,7 +75,7 @@ Num Files=1
 File 0=oglib_array.mnu
 
 
-[File Group 3]
+[File Group 2]
 
 Source Dir="../source"
 
@@ -103,7 +88,7 @@ Num Files=1
 File 0=oglib_array.mnu
 
 
-[File Group 4]
+[File Group 3]
 
 Source Dir=../built/help
 
@@ -116,7 +101,7 @@ Num Files=1
 File 0=*.*
 
 
-[File Group 5]
+[File Group 4]
 Source Dir=../examples
 
 Target Dir=<application>/examples/OpenG/array
