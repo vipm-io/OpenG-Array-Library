@@ -1,7 +1,5 @@
 Changelog for Openg Array Toolkit version 3.0
 
-[CHANGE] Recompiled source into LabVIEW 8.2
-
-[ADDITION]Added support for 64 bit integer datatypes
-
-[ADDITION]Added support for LabVIEW Object datatypes
+[MOD] Recompiled source into LabVIEW 8.2
+[NEW] Added support for 64 bit integer datatypes
+[NEW] Added support for LabVIEW Object datatypes
