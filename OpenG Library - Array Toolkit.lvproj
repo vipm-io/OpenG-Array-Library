@@ -160,6 +160,7 @@
          <Item Name="Pre Build Utility - Run Unit Tests.vi" Type="VI" URL="build support/Pre Build Utility - Run Unit Tests.vi"/>
          <Item Name="Pre-Post Build.vi" Type="VI" URL="build support/Pre-Post Build.vi"/>
          <Item Name="Read Key (Path) (Append if Relative).vi" Type="VI" URL="build support/Read Key (Path) (Append if Relative).vi"/>
+         <Item Name="Post Build Utility - Conditional Auto-Indexing Tunnel (Path)__ogtk.vi" Type="VI" URL="build support/Post Build Utility - Conditional Auto-Indexing Tunnel (Path)__ogtk.vi"/>
       </Item>
       <Item Name="docs" Type="Folder">
          <Item Name="Meeting Notes" Type="Folder">
@@ -196,6 +197,7 @@
          <Item Name="Reverse 2D Array Example 01.vi" Type="VI" URL="examples/Reverse 2D Array Example 01.vi"/>
          <Item Name="Search Array Example 01.vi" Type="VI" URL="examples/Search Array Example 01.vi"/>
          <Item Name="Sort Array and Reorder Array Example 01.vi" Type="VI" URL="examples/Sort Array and Reorder Array Example 01.vi"/>
+         <Item Name="OpenG_Array.bin3" Type="Document" URL="examples/OpenG_Array.bin3"/>
       </Item>
       <Item Name="source" Type="Folder">
          <Item Name="help" Type="Folder">
@@ -203,40 +205,6 @@
             <Item Name="OpenG_Array_Tools_Palette.png" Type="Document" URL="source/help/OpenG_Array_Tools_Palette.png"/>
          </Item>
          <Item Name="library" Type="Folder">
-            <Item Name="Append or Replace Array Element" Type="Folder">
-               <Item Name="Append or Replace 1D Array Element (Boolean).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (Boolean).vi"/>
-               <Item Name="Append or Replace 1D Array Element (CDB).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (CDB).vi"/>
-               <Item Name="Append or Replace 1D Array Element (CSG).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (CSG).vi"/>
-               <Item Name="Append or Replace 1D Array Element (CXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (CXT).vi"/>
-               <Item Name="Append or Replace 1D Array Element (DBL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (DBL).vi"/>
-               <Item Name="Append or Replace 1D Array Element (EXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (EXT).vi"/>
-               <Item Name="Append or Replace 1D Array Element (I16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I16).vi"/>
-               <Item Name="Append or Replace 1D Array Element (I32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I32).vi"/>
-               <Item Name="Append or Replace 1D Array Element (I8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I8).vi"/>
-               <Item Name="Append or Replace 1D Array Element (Path).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (Path).vi"/>
-               <Item Name="Append or Replace 1D Array Element (SGL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (SGL).vi"/>
-               <Item Name="Append or Replace 1D Array Element (String).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (String).vi"/>
-               <Item Name="Append or Replace 1D Array Element (U16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U16).vi"/>
-               <Item Name="Append or Replace 1D Array Element (U32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U32).vi"/>
-               <Item Name="Append or Replace 1D Array Element (U8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U8).vi"/>
-               <Item Name="Append or Replace 1D Array Element (Variant).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (Variant).vi"/>
-               <Item Name="Append or Replace 2D Array Element (Boolean).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (Boolean).vi"/>
-               <Item Name="Append or Replace 2D Array Element (CDB).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (CDB).vi"/>
-               <Item Name="Append or Replace 2D Array Element (CSG).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (CSG).vi"/>
-               <Item Name="Append or Replace 2D Array Element (CXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (CXT).vi"/>
-               <Item Name="Append or Replace 2D Array Element (DBL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (DBL).vi"/>
-               <Item Name="Append or Replace 2D Array Element (EXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (EXT).vi"/>
-               <Item Name="Append or Replace 2D Array Element (I16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I16).vi"/>
-               <Item Name="Append or Replace 2D Array Element (I32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I32).vi"/>
-               <Item Name="Append or Replace 2D Array Element (I8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I8).vi"/>
-               <Item Name="Append or Replace 2D Array Element (Path).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (Path).vi"/>
-               <Item Name="Append or Replace 2D Array Element (SGL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (SGL).vi"/>
-               <Item Name="Append or Replace 2D Array Element (String).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (String).vi"/>
-               <Item Name="Append or Replace 2D Array Element (U16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U16).vi"/>
-               <Item Name="Append or Replace 2D Array Element (U32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U32).vi"/>
-               <Item Name="Append or Replace 2D Array Element (U8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U8).vi"/>
-               <Item Name="Append or Replace 2D Array Element (Variant).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (Variant).vi"/>
-            </Item>
             <Item Name="Conditional Auto-Indexing Tunnel" Type="Folder">
                <Item Name="Conditional Auto-Indexing Tunnel (Bool).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (Bool).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (CDB).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (CDB).vi"/>
@@ -254,10 +222,11 @@
                <Item Name="Conditional Auto-Indexing Tunnel (Path).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (Path).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (SGL).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (SGL).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (String).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (String).vi"/>
+               <Item Name="Conditional Auto-Indexing Tunnel (U8).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U8).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (U16).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U16).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (U32).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U32).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (U64).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U64).vi"/>
-               <Item Name="Conditional Auto-Indexing Tunnel (U8).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (U8).vi"/>
+               <Item Name="Conditional Auto-Indexing Tunnel (LVObject).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (LVObject).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (Variant).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (Variant).vi"/>
                <Item Name="Conditional Auto-Indexing Tunnel (VI-REF).vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel/Conditional Auto-Indexing Tunnel (VI-REF).vi"/>
             </Item>
@@ -268,18 +237,19 @@
                <Item Name="Delete Elements from 1D Array (CXT).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (CXT).vi"/>
                <Item Name="Delete Elements from 1D Array (DBL).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (DBL).vi"/>
                <Item Name="Delete Elements from 1D Array (EXT).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (EXT).vi"/>
+               <Item Name="Delete Elements from 1D Array (I8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I8).vi"/>
                <Item Name="Delete Elements from 1D Array (I16).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I16).vi"/>
                <Item Name="Delete Elements from 1D Array (I32).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I32).vi"/>
                <Item Name="Delete Elements from 1D Array (I64).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I64).vi"/>
-               <Item Name="Delete Elements from 1D Array (I8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (I8).vi"/>
                <Item Name="Delete Elements from 1D Array (Path).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (Path).vi"/>
                <Item Name="Delete Elements from 1D Array (SGL).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (SGL).vi"/>
                <Item Name="Delete Elements from 1D Array (String).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (String).vi"/>
+               <Item Name="Delete Elements from 1D Array (U8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U8).vi"/>
                <Item Name="Delete Elements from 1D Array (U16).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U16).vi"/>
                <Item Name="Delete Elements from 1D Array (U32).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U32).vi"/>
                <Item Name="Delete Elements from 1D Array (U64).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U64).vi"/>
-               <Item Name="Delete Elements from 1D Array (U8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (U8).vi"/>
                <Item Name="Delete Elements from 1D Array (Variant).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (Variant).vi"/>
+               <Item Name="Delete Elements from 1D Array (LVObject).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (LVObject).vi"/>
                <Item Name="Delete Elements from 1D Array (xxx).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 1D Array (xxx).vi"/>
                <Item Name="Delete Elements from 2D Array (Boolean).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (Boolean).vi"/>
                <Item Name="Delete Elements from 2D Array (CDB).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (CDB).vi"/>
@@ -287,16 +257,19 @@
                <Item Name="Delete Elements from 2D Array (CXT).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (CXT).vi"/>
                <Item Name="Delete Elements from 2D Array (DBL).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (DBL).vi"/>
                <Item Name="Delete Elements from 2D Array (EXT).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (EXT).vi"/>
+               <Item Name="Delete Elements from 2D Array (I8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (I8).vi"/>
                <Item Name="Delete Elements from 2D Array (I16).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (I16).vi"/>
                <Item Name="Delete Elements from 2D Array (I32).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (I32).vi"/>
-               <Item Name="Delete Elements from 2D Array (I8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (I8).vi"/>
+               <Item Name="Delete Elements from 2D Array (I64).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (I64).vi"/>
                <Item Name="Delete Elements from 2D Array (Path).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (Path).vi"/>
                <Item Name="Delete Elements from 2D Array (SGL).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (SGL).vi"/>
                <Item Name="Delete Elements from 2D Array (String).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (String).vi"/>
+               <Item Name="Delete Elements from 2D Array (U8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (U8).vi"/>
                <Item Name="Delete Elements from 2D Array (U16).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (U16).vi"/>
                <Item Name="Delete Elements from 2D Array (U32).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (U32).vi"/>
-               <Item Name="Delete Elements from 2D Array (U8).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (U8).vi"/>
+               <Item Name="Delete Elements from 2D Array (U64).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (U64).vi"/>
                <Item Name="Delete Elements from 2D Array (Variant).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (Variant).vi"/>
+               <Item Name="Delete Elements from 2D Array (LVObject).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (LVObject).vi"/>
                <Item Name="Delete Elements from 2D Array (xxx).vi" Type="VI" URL="source/library/Delete Elements from Array/Delete Elements from 2D Array (xxx).vi"/>
             </Item>
             <Item Name="Empty Array" Type="Folder">
@@ -306,32 +279,38 @@
                <Item Name="Empty 1D Array (CXT).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (CXT).vi"/>
                <Item Name="Empty 1D Array (DBL).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (DBL).vi"/>
                <Item Name="Empty 1D Array (EXT).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (EXT).vi"/>
+               <Item Name="Empty 1D Array (I8).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (I8).vi"/>
                <Item Name="Empty 1D Array (I16).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (I16).vi"/>
                <Item Name="Empty 1D Array (I32).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (I32).vi"/>
-               <Item Name="Empty 1D Array (I8).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (I8).vi"/>
+               <Item Name="Empty 1D Array (I64).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (I64).vi"/>
                <Item Name="Empty 1D Array (Path).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (Path).vi"/>
                <Item Name="Empty 1D Array (SGL).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (SGL).vi"/>
                <Item Name="Empty 1D Array (String).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (String).vi"/>
+               <Item Name="Empty 1D Array (U8).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (U8).vi"/>
                <Item Name="Empty 1D Array (U16).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (U16).vi"/>
                <Item Name="Empty 1D Array (U32).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (U32).vi"/>
-               <Item Name="Empty 1D Array (U8).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (U8).vi"/>
+               <Item Name="Empty 1D Array (U64).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (U64).vi"/>
                <Item Name="Empty 1D Array (Variant).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (Variant).vi"/>
+               <Item Name="Empty 1D Array (LVObject).vi" Type="VI" URL="source/library/Empty Array/Empty 1D Array (LVObject).vi"/>
                <Item Name="Empty 2D Array (Boolean).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (Boolean).vi"/>
                <Item Name="Empty 2D Array (CDB).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (CDB).vi"/>
                <Item Name="Empty 2D Array (CSG).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (CSG).vi"/>
                <Item Name="Empty 2D Array (CXT).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (CXT).vi"/>
                <Item Name="Empty 2D Array (DBL).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (DBL).vi"/>
                <Item Name="Empty 2D Array (EXT).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (EXT).vi"/>
+               <Item Name="Empty 2D Array (I8).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (I8).vi"/>
                <Item Name="Empty 2D Array (I16).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (I16).vi"/>
                <Item Name="Empty 2D Array (I32).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (I32).vi"/>
-               <Item Name="Empty 2D Array (I8).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (I8).vi"/>
+               <Item Name="Empty 2D Array (I64).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (I64).vi"/>
                <Item Name="Empty 2D Array (Path).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (Path).vi"/>
                <Item Name="Empty 2D Array (SGL).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (SGL).vi"/>
                <Item Name="Empty 2D Array (String).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (String).vi"/>
+               <Item Name="Empty 2D Array (U8).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (U8).vi"/>
                <Item Name="Empty 2D Array (U16).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (U16).vi"/>
                <Item Name="Empty 2D Array (U32).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (U32).vi"/>
-               <Item Name="Empty 2D Array (U8).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (U8).vi"/>
+               <Item Name="Empty 2D Array (U64).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (U64).vi"/>
                <Item Name="Empty 2D Array (Variant).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (Variant).vi"/>
+               <Item Name="Empty 2D Array (LVObject).vi" Type="VI" URL="source/library/Empty Array/Empty 2D Array (LVObject).vi"/>
                <Item Name="Empty Array (Variant).vi" Type="VI" URL="source/library/Empty Array/Empty Array (Variant).vi"/>
             </Item>
             <Item Name="Filter 1D Array" Type="Folder">
@@ -341,16 +320,19 @@
                <Item Name="Filter 1D Array (CXT).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (CXT).vi"/>
                <Item Name="Filter 1D Array (DBL).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (DBL).vi"/>
                <Item Name="Filter 1D Array (EXT).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (EXT).vi"/>
+               <Item Name="Filter 1D Array (I8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (I8).vi"/>
                <Item Name="Filter 1D Array (I16).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (I16).vi"/>
                <Item Name="Filter 1D Array (I32).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (I32).vi"/>
-               <Item Name="Filter 1D Array (I8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (I8).vi"/>
+               <Item Name="Filter 1D Array (I64).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (I64).vi"/>
                <Item Name="Filter 1D Array (Path).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (Path).vi"/>
                <Item Name="Filter 1D Array (SGL).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (SGL).vi"/>
                <Item Name="Filter 1D Array (String).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (String).vi"/>
+               <Item Name="Filter 1D Array (U8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (U8).vi"/>
                <Item Name="Filter 1D Array (U16).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (U16).vi"/>
                <Item Name="Filter 1D Array (U32).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (U32).vi"/>
-               <Item Name="Filter 1D Array (U8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (U8).vi"/>
+               <Item Name="Filter 1D Array (U64).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (U64).vi"/>
                <Item Name="Filter 1D Array (Variant).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (Variant).vi"/>
+               <Item Name="Filter 1D Array (LVObject).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (LVObject).vi"/>
                <Item Name="Filter 1D Array (xxx).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array (xxx).vi"/>
                <Item Name="Filter 1D Array with Scalar (Boolean).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (Boolean).vi"/>
                <Item Name="Filter 1D Array with Scalar (CDB).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (CDB).vi"/>
@@ -358,16 +340,19 @@
                <Item Name="Filter 1D Array with Scalar (CXT).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (CXT).vi"/>
                <Item Name="Filter 1D Array with Scalar (DBL).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (DBL).vi"/>
                <Item Name="Filter 1D Array with Scalar (EXT).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (EXT).vi"/>
+               <Item Name="Filter 1D Array with Scalar (I8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (I8).vi"/>
                <Item Name="Filter 1D Array with Scalar (I16).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (I16).vi"/>
                <Item Name="Filter 1D Array with Scalar (I32).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (I32).vi"/>
-               <Item Name="Filter 1D Array with Scalar (I8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (I8).vi"/>
+               <Item Name="Filter 1D Array with Scalar (I64).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (I64).vi"/>
                <Item Name="Filter 1D Array with Scalar (Path).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (Path).vi"/>
                <Item Name="Filter 1D Array with Scalar (SGL).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (SGL).vi"/>
                <Item Name="Filter 1D Array with Scalar (String).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (String).vi"/>
+               <Item Name="Filter 1D Array with Scalar (U8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (U8).vi"/>
                <Item Name="Filter 1D Array with Scalar (U16).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (U16).vi"/>
                <Item Name="Filter 1D Array with Scalar (U32).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (U32).vi"/>
-               <Item Name="Filter 1D Array with Scalar (U8).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (U8).vi"/>
+               <Item Name="Filter 1D Array with Scalar (U64).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (U64).vi"/>
                <Item Name="Filter 1D Array with Scalar (Variant).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (Variant).vi"/>
+               <Item Name="Filter 1D Array with Scalar (LVObject).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (LVObject).vi"/>
                <Item Name="Filter 1D Array with Scalar (xxx).vi" Type="VI" URL="source/library/Filter 1D Array/Filter 1D Array with Scalar (xxx).vi"/>
             </Item>
             <Item Name="Index Array Elements" Type="Folder">
@@ -377,34 +362,303 @@
                <Item Name="Index 1D Array Elements (CXT).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (CXT).vi"/>
                <Item Name="Index 1D Array Elements (DBL).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (DBL).vi"/>
                <Item Name="Index 1D Array Elements (EXT).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (EXT).vi"/>
+               <Item Name="Index 1D Array Elements (I8).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (I8).vi"/>
                <Item Name="Index 1D Array Elements (I16).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (I16).vi"/>
                <Item Name="Index 1D Array Elements (I32).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (I32).vi"/>
-               <Item Name="Index 1D Array Elements (I8).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (I8).vi"/>
+               <Item Name="Index 1D Array Elements (I64).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (I64).vi"/>
                <Item Name="Index 1D Array Elements (Path).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (Path).vi"/>
                <Item Name="Index 1D Array Elements (SGL).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (SGL).vi"/>
                <Item Name="Index 1D Array Elements (String).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (String).vi"/>
+               <Item Name="Index 1D Array Elements (U8).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (U8).vi"/>
                <Item Name="Index 1D Array Elements (U16).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (U16).vi"/>
                <Item Name="Index 1D Array Elements (U32).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (U32).vi"/>
-               <Item Name="Index 1D Array Elements (U8).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (U8).vi"/>
+               <Item Name="Index 1D Array Elements (U64).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (U64).vi"/>
                <Item Name="Index 1D Array Elements (Variant).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (Variant).vi"/>
                <Item Name="Index 1D Array Elements (xxx).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (xxx).vi"/>
+               <Item Name="Index 1D Array Elements (LVObject).vi" Type="VI" URL="source/library/Index Array Elements/Index 1D Array Elements (LVObject).vi"/>
                <Item Name="Index 2D Array Elements (Boolean).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (Boolean).vi"/>
                <Item Name="Index 2D Array Elements (CDB).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (CDB).vi"/>
                <Item Name="Index 2D Array Elements (CSG).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (CSG).vi"/>
                <Item Name="Index 2D Array Elements (CXT).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (CXT).vi"/>
                <Item Name="Index 2D Array Elements (DBL).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (DBL).vi"/>
                <Item Name="Index 2D Array Elements (EXT).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (EXT).vi"/>
+               <Item Name="Index 2D Array Elements (I8).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (I8).vi"/>
                <Item Name="Index 2D Array Elements (I16).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (I16).vi"/>
                <Item Name="Index 2D Array Elements (I32).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (I32).vi"/>
-               <Item Name="Index 2D Array Elements (I8).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (I8).vi"/>
+               <Item Name="Index 2D Array Elements (I64).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (I64).vi"/>
                <Item Name="Index 2D Array Elements (Path).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (Path).vi"/>
                <Item Name="Index 2D Array Elements (SGL).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (SGL).vi"/>
                <Item Name="Index 2D Array Elements (String).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (String).vi"/>
+               <Item Name="Index 2D Array Elements (U8).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (U8).vi"/>
                <Item Name="Index 2D Array Elements (U16).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (U16).vi"/>
                <Item Name="Index 2D Array Elements (U32).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (U32).vi"/>
-               <Item Name="Index 2D Array Elements (U8).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (U8).vi"/>
+               <Item Name="Index 2D Array Elements (U64).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (U64).vi"/>
                <Item Name="Index 2D Array Elements (Variant).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (Variant).vi"/>
+               <Item Name="Index 2D Array Elements (LVObject).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (LVObject).vi"/>
                <Item Name="Index 2D Array Elements (xxx).vi" Type="VI" URL="source/library/Index Array Elements/Index 2D Array Elements (xxx).vi"/>
+            </Item>
+            <Item Name="Remove Duplicates from 1D Array" Type="Folder">
+               <Item Name="Remove Duplicates from 1D Array (Boolean).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (Boolean).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (CDB).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (CDB).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (CSG).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (CSG).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (CXT).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (CXT).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (DBL).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (DBL).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (EXT).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (EXT).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (I8).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I8).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (I16).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I16).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (I32).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I32).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (I64).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I64).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (Path).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (Path).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (SGL).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (SGL).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (String).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (String).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (U8).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U8).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (U16).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U16).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (U32).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U32).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (U64).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U64).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (Variant).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (Variant).vi"/>
+               <Item Name="Remove Duplicates from 1D Array (LVObject).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (LVObject).vi"/>
+            </Item>
+            <Item Name="Reorder Array" Type="Folder">
+               <Item Name="Deprecated" Type="Folder">
+                  <Item Name="Reorder 1D Array (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (Boolean).vi"/>
+                  <Item Name="Reorder 1D Array (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (CDB).vi"/>
+                  <Item Name="Reorder 1D Array (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (CSG).vi"/>
+                  <Item Name="Reorder 1D Array (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (CXT).vi"/>
+                  <Item Name="Reorder 1D Array (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (DBL).vi"/>
+                  <Item Name="Reorder 1D Array (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (EXT).vi"/>
+                  <Item Name="Reorder 1D Array (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (I16).vi"/>
+                  <Item Name="Reorder 1D Array (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (I32).vi"/>
+                  <Item Name="Reorder 1D Array (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (I8).vi"/>
+                  <Item Name="Reorder 1D Array (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (Path).vi"/>
+                  <Item Name="Reorder 1D Array (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (SGL).vi"/>
+                  <Item Name="Reorder 1D Array (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (String).vi"/>
+                  <Item Name="Reorder 1D Array (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (U16).vi"/>
+                  <Item Name="Reorder 1D Array (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (U32).vi"/>
+                  <Item Name="Reorder 1D Array (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (U8).vi"/>
+                  <Item Name="Reorder 1D Array (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (Variant).vi"/>
+                  <Item Name="Reorder 1D Array (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (xxx).vi"/>
+                  <Item Name="Reorder 2D Array (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (xxx).vi"/>
+                  <Item Name="Reorder 2D Array (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (Variant).vi"/>
+                  <Item Name="Reorder 2D Array (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (U32).vi"/>
+                  <Item Name="Reorder 2D Array (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (U16).vi"/>
+                  <Item Name="Reorder 2D Array (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (U8).vi"/>
+                  <Item Name="Reorder 2D Array (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (String).vi"/>
+                  <Item Name="Reorder 2D Array (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (SGL).vi"/>
+                  <Item Name="Reorder 2D Array (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (Path).vi"/>
+                  <Item Name="Reorder 2D Array (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (CSG).vi"/>
+                  <Item Name="Reorder 2D Array (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (CXT).vi"/>
+                  <Item Name="Reorder 2D Array (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (DBL).vi"/>
+                  <Item Name="Reorder 2D Array (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (EXT).vi"/>
+                  <Item Name="Reorder 2D Array (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (I8).vi"/>
+                  <Item Name="Reorder 2D Array (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (I16).vi"/>
+                  <Item Name="Reorder 2D Array (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (I32).vi"/>
+                  <Item Name="Reorder 2D Array (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (Boolean).vi"/>
+                  <Item Name="Reorder 2D Array (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (CDB).vi"/>
+               </Item>
+               <Item Name="Reorder 1D Array2 (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (Boolean).vi"/>
+               <Item Name="Reorder 1D Array2 (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (CDB).vi"/>
+               <Item Name="Reorder 1D Array2 (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (CSG).vi"/>
+               <Item Name="Reorder 1D Array2 (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (CXT).vi"/>
+               <Item Name="Reorder 1D Array2 (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (DBL).vi"/>
+               <Item Name="Reorder 1D Array2 (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (EXT).vi"/>
+               <Item Name="Reorder 1D Array2 (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I16).vi"/>
+               <Item Name="Reorder 1D Array2 (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I32).vi"/>
+               <Item Name="Reorder 1D Array2 (I64).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I64).vi"/>
+               <Item Name="Reorder 1D Array2 (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I8).vi"/>
+               <Item Name="Reorder 1D Array2 (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (Path).vi"/>
+               <Item Name="Reorder 1D Array2 (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (SGL).vi"/>
+               <Item Name="Reorder 1D Array2 (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (String).vi"/>
+               <Item Name="Reorder 1D Array2 (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U8).vi"/>
+               <Item Name="Reorder 1D Array2 (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U16).vi"/>
+               <Item Name="Reorder 1D Array2 (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U32).vi"/>
+               <Item Name="Reorder 1D Array2 (U64).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U64).vi"/>
+               <Item Name="Reorder 1D Array2 (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (Variant).vi"/>
+               <Item Name="Reorder 1D Array2 (LVObject).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (LVObject).vi"/>
+               <Item Name="Reorder 1D Array2 (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (xxx).vi"/>
+               <Item Name="Reorder 2D Array2 (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (Boolean).vi"/>
+               <Item Name="Reorder 2D Array2 (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (CDB).vi"/>
+               <Item Name="Reorder 2D Array2 (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (CSG).vi"/>
+               <Item Name="Reorder 2D Array2 (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (CXT).vi"/>
+               <Item Name="Reorder 2D Array2 (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (DBL).vi"/>
+               <Item Name="Reorder 2D Array2 (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (EXT).vi"/>
+               <Item Name="Reorder 2D Array2 (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I8).vi"/>
+               <Item Name="Reorder 2D Array2 (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I16).vi"/>
+               <Item Name="Reorder 2D Array2 (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I32).vi"/>
+               <Item Name="Reorder 2D Array2 (I64).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I64).vi"/>
+               <Item Name="Reorder 2D Array2 (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (Path).vi"/>
+               <Item Name="Reorder 2D Array2 (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (SGL).vi"/>
+               <Item Name="Reorder 2D Array2 (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (String).vi"/>
+               <Item Name="Reorder 2D Array2 (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U8).vi"/>
+               <Item Name="Reorder 2D Array2 (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U16).vi"/>
+               <Item Name="Reorder 2D Array2 (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U32).vi"/>
+               <Item Name="Reorder 2D Array2 (U64).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U64).vi"/>
+               <Item Name="Reorder 2D Array2 (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (Variant).vi"/>
+               <Item Name="Reorder 2D Array2 (LVObject).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (LVObject).vi"/>
+               <Item Name="Reorder 2D Array2 (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (xxx).vi"/>
+            </Item>
+            <Item Name="Reverse 2D Array" Type="Folder">
+               <Item Name="Reverse 2D Array (Boolean).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (Boolean).vi"/>
+               <Item Name="Reverse 2D Array (CDB).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (CDB).vi"/>
+               <Item Name="Reverse 2D Array (CSG).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (CSG).vi"/>
+               <Item Name="Reverse 2D Array (CXT).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (CXT).vi"/>
+               <Item Name="Reverse 2D Array (DBL).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (DBL).vi"/>
+               <Item Name="Reverse 2D Array (EXT).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (EXT).vi"/>
+               <Item Name="Reverse 2D Array (I8).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I8).vi"/>
+               <Item Name="Reverse 2D Array (I16).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I16).vi"/>
+               <Item Name="Reverse 2D Array (I32).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I32).vi"/>
+               <Item Name="Reverse 2D Array (I64).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I64).vi"/>
+               <Item Name="Reverse 2D Array (Path).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (Path).vi"/>
+               <Item Name="Reverse 2D Array (SGL).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (SGL).vi"/>
+               <Item Name="Reverse 2D Array (String).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (String).vi"/>
+               <Item Name="Reverse 2D Array (U8).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U8).vi"/>
+               <Item Name="Reverse 2D Array (U16).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U16).vi"/>
+               <Item Name="Reverse 2D Array (U32).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U32).vi"/>
+               <Item Name="Reverse 2D Array (U64).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U64).vi"/>
+               <Item Name="Reverse 2D Array (Variant).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (Variant).vi"/>
+               <Item Name="Reverse 2D Array (LVObject).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (LVObject).vi"/>
+            </Item>
+            <Item Name="Search Array" Type="Folder">
+               <Item Name="Search 1D Array (Boolean).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (Boolean).vi"/>
+               <Item Name="Search 1D Array (CDB).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (CDB).vi"/>
+               <Item Name="Search 1D Array (CSG).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (CSG).vi"/>
+               <Item Name="Search 1D Array (CXT).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (CXT).vi"/>
+               <Item Name="Search 1D Array (DBL).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (DBL).vi"/>
+               <Item Name="Search 1D Array (EXT).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (EXT).vi"/>
+               <Item Name="Search 1D Array (I8).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I8).vi"/>
+               <Item Name="Search 1D Array (I16).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I16).vi"/>
+               <Item Name="Search 1D Array (I32).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I32).vi"/>
+               <Item Name="Search 1D Array (I64).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I64).vi"/>
+               <Item Name="Search 1D Array (Path).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (Path).vi"/>
+               <Item Name="Search 1D Array (SGL).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (SGL).vi"/>
+               <Item Name="Search 1D Array (String).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (String).vi"/>
+               <Item Name="Search 1D Array (U8).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U8).vi"/>
+               <Item Name="Search 1D Array (U16).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U16).vi"/>
+               <Item Name="Search 1D Array (U32).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U32).vi"/>
+               <Item Name="Search 1D Array (U64).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U64).vi"/>
+               <Item Name="Search 1D Array (Variant).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (Variant).vi"/>
+               <Item Name="Search 1D Array (LVObject).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (LVObject).vi"/>
+            </Item>
+            <Item Name="Slice 1D Array" Type="Folder">
+               <Item Name="Slice 1D Array (BOL).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (BOL).vi"/>
+               <Item Name="Slice 1D Array (CDB).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CDB).vi"/>
+               <Item Name="Slice 1D Array (CSG).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CSG).vi"/>
+               <Item Name="Slice 1D Array (CTL-REF).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CTL-REF).vi"/>
+               <Item Name="Slice 1D Array (CXT).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CXT).vi"/>
+               <Item Name="Slice 1D Array (DBL).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (DBL).vi"/>
+               <Item Name="Slice 1D Array (ENUM).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (ENUM).vi"/>
+               <Item Name="Slice 1D Array (ERR).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (ERR).vi"/>
+               <Item Name="Slice 1D Array (EXT).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (EXT).vi"/>
+               <Item Name="Slice 1D Array (FILE-REF).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (FILE-REF).vi"/>
+               <Item Name="Slice 1D Array (I08).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I08).vi"/>
+               <Item Name="Slice 1D Array (I16).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I16).vi"/>
+               <Item Name="Slice 1D Array (I32).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I32).vi"/>
+               <Item Name="Slice 1D Array (I64).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I64).vi"/>
+               <Item Name="Slice 1D Array (MENU-REF).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (MENU-REF).vi"/>
+               <Item Name="Slice 1D Array (MENU-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (MENU-RING).vi"/>
+               <Item Name="Slice 1D Array (PATH).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (PATH).vi"/>
+               <Item Name="Slice 1D Array (PICT-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (PICT-RING).vi"/>
+               <Item Name="Slice 1D Array (SIG).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (SIG).vi"/>
+               <Item Name="Slice 1D Array (String).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (String).vi"/>
+               <Item Name="Slice 1D Array (TXT&amp;PICT-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (TXT&amp;PICT-RING).vi"/>
+               <Item Name="Slice 1D Array (TXT-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (TXT-RING).vi"/>
+               <Item Name="Slice 1D Array (U08).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U08).vi"/>
+               <Item Name="Slice 1D Array (U16).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U16).vi"/>
+               <Item Name="Slice 1D Array (U32).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U32).vi"/>
+               <Item Name="Slice 1D Array (U64).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U64).vi"/>
+               <Item Name="Slice 1D Array (VAR).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (VAR).vi"/>
+               <Item Name="Slice 1D Array (LVObject).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (LVObject).vi"/>
+            </Item>
+            <Item Name="Sort Array" Type="Folder">
+               <Item Name="Sort 1D Array (CDB).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (CDB).vi"/>
+               <Item Name="Sort 1D Array (CSG).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (CSG).vi"/>
+               <Item Name="Sort 1D Array (CXT).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (CXT).vi"/>
+               <Item Name="Sort 1D Array (DBL).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (DBL).vi"/>
+               <Item Name="Sort 1D Array (EXT).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (EXT).vi"/>
+               <Item Name="Sort 1D Array (I8).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I8).vi"/>
+               <Item Name="Sort 1D Array (I16).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I16).vi"/>
+               <Item Name="Sort 1D Array (I32).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I32).vi"/>
+               <Item Name="Sort 1D Array (I64).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I64).vi"/>
+               <Item Name="Sort 1D Array (Path).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (Path).vi"/>
+               <Item Name="Sort 1D Array (SGL).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (SGL).vi"/>
+               <Item Name="Sort 1D Array (String).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (String).vi"/>
+               <Item Name="Sort 1D Array (U8).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U8).vi"/>
+               <Item Name="Sort 1D Array (U16).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U16).vi"/>
+               <Item Name="Sort 1D Array (U32).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U32).vi"/>
+               <Item Name="Sort 1D Array (U64).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U64).vi"/>
+               <Item Name="Sort 2D Array (CDB).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (CDB).vi"/>
+               <Item Name="Sort 2D Array (CSG).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (CSG).vi"/>
+               <Item Name="Sort 2D Array (CXT).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (CXT).vi"/>
+               <Item Name="Sort 2D Array (DBL).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (DBL).vi"/>
+               <Item Name="Sort 2D Array (EXT).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (EXT).vi"/>
+               <Item Name="Sort 2D Array (I8).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I8).vi"/>
+               <Item Name="Sort 2D Array (I16).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I16).vi"/>
+               <Item Name="Sort 2D Array (I32).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I32).vi"/>
+               <Item Name="Sort 2D Array (I64).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I64).vi"/>
+               <Item Name="Sort 2D Array (Path).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (Path).vi"/>
+               <Item Name="Sort 2D Array (SGL).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (SGL).vi"/>
+               <Item Name="Sort 2D Array (String).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (String).vi"/>
+               <Item Name="Sort 2D Array (U8).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U8).vi"/>
+               <Item Name="Sort 2D Array (U16).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U16).vi"/>
+               <Item Name="Sort 2D Array (U32).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U32).vi"/>
+               <Item Name="Sort 2D Array (U64).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U64).vi"/>
+            </Item>
+            <Item Name="Append or Replace Array Element.vi" Type="VI" URL="source/library/Append or Replace Array Element.vi"/>
+            <Item Name="Conditional Auto-Indexing Tunnel.vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel.vi"/>
+            <Item Name="Delete Elements from Array.vi" Type="VI" URL="source/library/Delete Elements from Array.vi"/>
+            <Item Name="Empty Array.vi" Type="VI" URL="source/library/Empty Array.vi"/>
+            <Item Name="Filter 1D Array.vi" Type="VI" URL="source/library/Filter 1D Array.vi"/>
+            <Item Name="Index Array Elements.vi" Type="VI" URL="source/library/Index Array Elements.vi"/>
+            <Item Name="Initialize Array from Array.vi" Type="VI" URL="source/library/Initialize Array from Array.vi"/>
+            <Item Name="Remove Duplicates from 1D Array.vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array.vi"/>
+            <Item Name="Reorder Array.vi" Type="VI" URL="source/library/Reorder Array.vi"/>
+            <Item Name="Reorder Array2.vi" Type="VI" URL="source/library/Reorder Array2.vi"/>
+            <Item Name="Reverse 2D Array.vi" Type="VI" URL="source/library/Reverse 2D Array.vi"/>
+            <Item Name="Search Array.vi" Type="VI" URL="source/library/Search Array.vi"/>
+            <Item Name="Slice 1D Array.vi" Type="VI" URL="source/library/Slice 1D Array.vi"/>
+            <Item Name="Sort 2D Array.vi" Type="VI" URL="source/library/Sort 2D Array.vi"/>
+            <Item Name="Sort Array.vi" Type="VI" URL="source/library/Sort Array.vi"/>
+            <Item Name="VI Tree - array.vi" Type="VI" URL="source/library/VI Tree - array.vi"/>
+         </Item>
+         <Item Name="Candidates" Type="Folder">
+            <Item Name="Append or Replace Array Element" Type="Folder">
+               <Item Name="Append or Replace 1D Array Element (Boolean).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (Boolean).vi"/>
+               <Item Name="Append or Replace 1D Array Element (CDB).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (CDB).vi"/>
+               <Item Name="Append or Replace 1D Array Element (CSG).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (CSG).vi"/>
+               <Item Name="Append or Replace 1D Array Element (CXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (CXT).vi"/>
+               <Item Name="Append or Replace 1D Array Element (DBL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (DBL).vi"/>
+               <Item Name="Append or Replace 1D Array Element (EXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (EXT).vi"/>
+               <Item Name="Append or Replace 1D Array Element (I16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I16).vi"/>
+               <Item Name="Append or Replace 1D Array Element (I32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I32).vi"/>
+               <Item Name="Append or Replace 1D Array Element (I64).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I64).vi"/>
+               <Item Name="Append or Replace 1D Array Element (I8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (I8).vi"/>
+               <Item Name="Append or Replace 1D Array Element (LVObject).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (LVObject).vi"/>
+               <Item Name="Append or Replace 1D Array Element (Path).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (Path).vi"/>
+               <Item Name="Append or Replace 1D Array Element (SGL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (SGL).vi"/>
+               <Item Name="Append or Replace 1D Array Element (String).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (String).vi"/>
+               <Item Name="Append or Replace 1D Array Element (U16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U16).vi"/>
+               <Item Name="Append or Replace 1D Array Element (U32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U32).vi"/>
+               <Item Name="Append or Replace 1D Array Element (U64).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U64).vi"/>
+               <Item Name="Append or Replace 1D Array Element (U8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (U8).vi"/>
+               <Item Name="Append or Replace 1D Array Element (Variant).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 1D Array Element (Variant).vi"/>
+               <Item Name="Append or Replace 2D Array Element (Boolean).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (Boolean).vi"/>
+               <Item Name="Append or Replace 2D Array Element (CDB).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (CDB).vi"/>
+               <Item Name="Append or Replace 2D Array Element (CSG).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (CSG).vi"/>
+               <Item Name="Append or Replace 2D Array Element (CXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (CXT).vi"/>
+               <Item Name="Append or Replace 2D Array Element (DBL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (DBL).vi"/>
+               <Item Name="Append or Replace 2D Array Element (EXT).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (EXT).vi"/>
+               <Item Name="Append or Replace 2D Array Element (I16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I16).vi"/>
+               <Item Name="Append or Replace 2D Array Element (I32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I32).vi"/>
+               <Item Name="Append or Replace 2D Array Element (I64).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I64).vi"/>
+               <Item Name="Append or Replace 2D Array Element (I8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (I8).vi"/>
+               <Item Name="Append or Replace 2D Array Element (LVObject).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (LVObject).vi"/>
+               <Item Name="Append or Replace 2D Array Element (Path).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (Path).vi"/>
+               <Item Name="Append or Replace 2D Array Element (SGL).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (SGL).vi"/>
+               <Item Name="Append or Replace 2D Array Element (String).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (String).vi"/>
+               <Item Name="Append or Replace 2D Array Element (U16).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U16).vi"/>
+               <Item Name="Append or Replace 2D Array Element (U32).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U32).vi"/>
+               <Item Name="Append or Replace 2D Array Element (U64).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U64).vi"/>
+               <Item Name="Append or Replace 2D Array Element (U8).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (U8).vi"/>
+               <Item Name="Append or Replace 2D Array Element (Variant).vi" Type="VI" URL="source/library/Append or Replace Array Element/Append or Replace 2D Array Element (Variant).vi"/>
             </Item>
             <Item Name="Initialize Array from Array" Type="Folder">
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (Boolean).vi"/>
@@ -415,12 +669,14 @@
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (Boolean) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (Boolean) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (Boolean) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Boolean) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (Boolean).vi"/>
@@ -431,12 +687,14 @@
                <Item Name="Initialize 1D Array (CDB) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (CDB) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (CDB) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (CDB) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CDB) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (Boolean).vi"/>
@@ -447,12 +705,14 @@
                <Item Name="Initialize 1D Array (CSG) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (CSG) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (CSG) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (CSG) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CSG) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (Boolean).vi"/>
@@ -463,12 +723,14 @@
                <Item Name="Initialize 1D Array (CXT) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (CXT) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (CXT) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (CXT) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (CXT) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (Boolean).vi"/>
@@ -479,12 +741,14 @@
                <Item Name="Initialize 1D Array (DBL) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (DBL) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (DBL) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (DBL) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (DBL) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (Boolean).vi"/>
@@ -495,12 +759,14 @@
                <Item Name="Initialize 1D Array (EXT) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (EXT) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (EXT) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (EXT) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (EXT) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (Boolean).vi"/>
@@ -511,12 +777,14 @@
                <Item Name="Initialize 1D Array (I16) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (I16) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (I16) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (I16) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I16) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (Boolean).vi"/>
@@ -527,14 +795,34 @@
                <Item Name="Initialize 1D Array (I32) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (I32) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (I32) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (I32) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I32) from 1D Array (Variant).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (Boolean).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (CDB).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (CSG).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (CXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (CXT).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (DBL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (DBL).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (EXT).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (I16).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (I64).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (I8).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (Path).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (SGL).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (String).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (U16).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (U64).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (U8).vi"/>
+               <Item Name="Initialize 1D Array (I64) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I64) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (Boolean).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (CDB).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (CSG).vi"/>
@@ -543,12 +831,14 @@
                <Item Name="Initialize 1D Array (I8) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (I8) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (I8) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (I8) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (I8) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (Path) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Path) from 1D Array (Boolean).vi"/>
@@ -575,12 +865,14 @@
                <Item Name="Initialize 1D Array (SGL) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (SGL) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (SGL) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (SGL) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (SGL) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (String) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (String) from 1D Array (Boolean).vi"/>
@@ -607,12 +899,14 @@
                <Item Name="Initialize 1D Array (U16) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (U16) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (U16) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (U16) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U16) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (Boolean).vi"/>
@@ -623,14 +917,34 @@
                <Item Name="Initialize 1D Array (U32) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (U32) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (U32) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (U32) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U32) from 1D Array (Variant).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (Boolean).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (CDB).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (CSG).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (CXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (CXT).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (DBL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (DBL).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (EXT).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (I16).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (I64).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (I8).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (Path).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (SGL).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (String).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (U16).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (U64).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (U8).vi"/>
+               <Item Name="Initialize 1D Array (U64) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U64) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (Boolean).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (CDB).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (CSG).vi"/>
@@ -639,12 +953,14 @@
                <Item Name="Initialize 1D Array (U8) from 1D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (EXT).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (I16).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (I32).vi"/>
+               <Item Name="Initialize 1D Array (U8) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (I64).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (I8).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (Path).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (SGL).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (String).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (U16).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (U32).vi"/>
+               <Item Name="Initialize 1D Array (U8) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (U64).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (U8).vi"/>
                <Item Name="Initialize 1D Array (U8) from 1D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (U8) from 1D Array (Variant).vi"/>
                <Item Name="Initialize 1D Array (Variant) from 1D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Variant) from 1D Array (Boolean).vi"/>
@@ -671,12 +987,14 @@
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (Boolean) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (Boolean) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (Boolean) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Boolean) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (Boolean).vi"/>
@@ -687,12 +1005,14 @@
                <Item Name="Initialize 2D Array (CDB) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (CDB) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (CDB) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (CDB) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CDB) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (Boolean).vi"/>
@@ -703,12 +1023,14 @@
                <Item Name="Initialize 2D Array (CSG) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (CSG) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (CSG) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (CSG) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CSG) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (Boolean).vi"/>
@@ -719,12 +1041,14 @@
                <Item Name="Initialize 2D Array (CXT) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (CXT) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (CXT) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (CXT) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (CXT) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (Boolean).vi"/>
@@ -735,12 +1059,14 @@
                <Item Name="Initialize 2D Array (DBL) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (DBL) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (DBL) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (DBL) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (DBL) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (Boolean).vi"/>
@@ -751,12 +1077,14 @@
                <Item Name="Initialize 2D Array (EXT) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (EXT) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (EXT) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (EXT) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (EXT) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (Boolean).vi"/>
@@ -767,12 +1095,14 @@
                <Item Name="Initialize 2D Array (I16) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (I16) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (I16) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (I16) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I16) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (Boolean).vi"/>
@@ -783,14 +1113,33 @@
                <Item Name="Initialize 2D Array (I32) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (I32) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (I32) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (I32) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I32) from 2D Array (Variant).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (CDB).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (CSG).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (CXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (CXT).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (DBL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (DBL).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (EXT).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (I16).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (I64).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (I8).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (Path).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (SGL).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (String).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (U16).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (U64).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (U8).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (Boolean).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (CDB).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (CSG).vi"/>
@@ -799,12 +1148,14 @@
                <Item Name="Initialize 2D Array (I8) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (I8) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (I8) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (I8) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I8) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (Boolean).vi"/>
@@ -815,12 +1166,14 @@
                <Item Name="Initialize 2D Array (Path) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (Path) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (Path) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (Path) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Path) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (Boolean).vi"/>
@@ -831,12 +1184,14 @@
                <Item Name="Initialize 2D Array (SGL) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (SGL) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (SGL) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (SGL) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (SGL) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (Boolean).vi"/>
@@ -847,12 +1202,14 @@
                <Item Name="Initialize 2D Array (String) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (String) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (String) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (String) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (String) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (Boolean).vi"/>
@@ -863,12 +1220,14 @@
                <Item Name="Initialize 2D Array (U16) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (U16) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (U16) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (U16) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U16) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (Boolean).vi"/>
@@ -879,14 +1238,33 @@
                <Item Name="Initialize 2D Array (U32) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (U32) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (U32) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (U32) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U32) from 2D Array (Variant).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (CDB).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (CSG).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (CXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (CXT).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (DBL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (DBL).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (EXT).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (I16).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (I64).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (I8).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (Path).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (SGL).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (String).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (U16).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (U64).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (U8).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (Boolean).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (CDB).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (CDB).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (CSG).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (CSG).vi"/>
@@ -895,12 +1273,14 @@
                <Item Name="Initialize 2D Array (U8) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (U8) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (U8) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (U8) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U8) from 2D Array (Variant).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (Boolean).vi"/>
@@ -911,212 +1291,25 @@
                <Item Name="Initialize 2D Array (Variant) from 2D Array (EXT).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (EXT).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (I16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (I16).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (I32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (I32).vi"/>
+               <Item Name="Initialize 2D Array (Variant) from 2D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (I64).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (I8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (I8).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (Path).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (Path).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (SGL).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (SGL).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (String).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (String).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (U16).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (U16).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (U32).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (U32).vi"/>
+               <Item Name="Initialize 2D Array (Variant) from 2D Array (U64) .vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (U64) .vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (U8).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (U8).vi"/>
                <Item Name="Initialize 2D Array (Variant) from 2D Array (Variant).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (Variant) from 2D Array (Variant).vi"/>
+               <Item Name="Initialize 2D Array (U64) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (U64) from 2D Array (Boolean).vi"/>
+               <Item Name="Initialize 2D Array (I64) from 2D Array (Boolean).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 2D Array (I64) from 2D Array (Boolean).vi"/>
+               <Item Name="Initialize 1D Array (String) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (String) from 1D Array (I64).vi"/>
+               <Item Name="Initialize 1D Array (String) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (String) from 1D Array (U64).vi"/>
+               <Item Name="Initialize 1D Array (Path) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Path) from 1D Array (I64).vi"/>
+               <Item Name="Initialize 1D Array (Path) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Path) from 1D Array (U64).vi"/>
+               <Item Name="Initialize 1D Array (Variant) from 1D Array (I64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Variant) from 1D Array (I64).vi"/>
+               <Item Name="Initialize 1D Array (Variant) from 1D Array (U64).vi" Type="VI" URL="source/library/Initialize Array from Array/Initialize 1D Array (Variant) from 1D Array (U64).vi"/>
             </Item>
-            <Item Name="Remove Duplicates from 1D Array" Type="Folder">
-               <Item Name="Remove Duplicates from 1D Array (Boolean).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (Boolean).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (CDB).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (CDB).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (CSG).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (CSG).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (CXT).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (CXT).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (DBL).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (DBL).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (EXT).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (EXT).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (I16).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I16).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (I32).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I32).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (I8).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (I8).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (Path).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (Path).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (SGL).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (SGL).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (String).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (String).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (U16).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U16).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (U32).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U32).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (U8).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (U8).vi"/>
-               <Item Name="Remove Duplicates from 1D Array (Variant).vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array/Remove Duplicates from 1D Array (Variant).vi"/>
-            </Item>
-            <Item Name="Reorder Array" Type="Folder">
-               <Item Name="Reorder 1D Array (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (Boolean).vi"/>
-               <Item Name="Reorder 1D Array (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (CDB).vi"/>
-               <Item Name="Reorder 1D Array (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (CSG).vi"/>
-               <Item Name="Reorder 1D Array (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (CXT).vi"/>
-               <Item Name="Reorder 1D Array (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (DBL).vi"/>
-               <Item Name="Reorder 1D Array (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (EXT).vi"/>
-               <Item Name="Reorder 1D Array (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (I16).vi"/>
-               <Item Name="Reorder 1D Array (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (I32).vi"/>
-               <Item Name="Reorder 1D Array (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (I8).vi"/>
-               <Item Name="Reorder 1D Array (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (Path).vi"/>
-               <Item Name="Reorder 1D Array (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (SGL).vi"/>
-               <Item Name="Reorder 1D Array (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (String).vi"/>
-               <Item Name="Reorder 1D Array (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (U16).vi"/>
-               <Item Name="Reorder 1D Array (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (U32).vi"/>
-               <Item Name="Reorder 1D Array (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (U8).vi"/>
-               <Item Name="Reorder 1D Array (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (Variant).vi"/>
-               <Item Name="Reorder 1D Array (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array (xxx).vi"/>
-               <Item Name="Reorder 1D Array2 (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (Boolean).vi"/>
-               <Item Name="Reorder 1D Array2 (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (CDB).vi"/>
-               <Item Name="Reorder 1D Array2 (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (CSG).vi"/>
-               <Item Name="Reorder 1D Array2 (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (CXT).vi"/>
-               <Item Name="Reorder 1D Array2 (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (DBL).vi"/>
-               <Item Name="Reorder 1D Array2 (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (EXT).vi"/>
-               <Item Name="Reorder 1D Array2 (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I16).vi"/>
-               <Item Name="Reorder 1D Array2 (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I32).vi"/>
-               <Item Name="Reorder 1D Array2 (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (I8).vi"/>
-               <Item Name="Reorder 1D Array2 (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (Path).vi"/>
-               <Item Name="Reorder 1D Array2 (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (SGL).vi"/>
-               <Item Name="Reorder 1D Array2 (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (String).vi"/>
-               <Item Name="Reorder 1D Array2 (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U16).vi"/>
-               <Item Name="Reorder 1D Array2 (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U32).vi"/>
-               <Item Name="Reorder 1D Array2 (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (U8).vi"/>
-               <Item Name="Reorder 1D Array2 (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (Variant).vi"/>
-               <Item Name="Reorder 1D Array2 (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 1D Array2 (xxx).vi"/>
-               <Item Name="Reorder 2D Array (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (Boolean).vi"/>
-               <Item Name="Reorder 2D Array (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (CDB).vi"/>
-               <Item Name="Reorder 2D Array (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (CSG).vi"/>
-               <Item Name="Reorder 2D Array (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (CXT).vi"/>
-               <Item Name="Reorder 2D Array (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (DBL).vi"/>
-               <Item Name="Reorder 2D Array (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (EXT).vi"/>
-               <Item Name="Reorder 2D Array (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (I16).vi"/>
-               <Item Name="Reorder 2D Array (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (I32).vi"/>
-               <Item Name="Reorder 2D Array (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (I8).vi"/>
-               <Item Name="Reorder 2D Array (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (Path).vi"/>
-               <Item Name="Reorder 2D Array (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (SGL).vi"/>
-               <Item Name="Reorder 2D Array (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (String).vi"/>
-               <Item Name="Reorder 2D Array (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (U16).vi"/>
-               <Item Name="Reorder 2D Array (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (U32).vi"/>
-               <Item Name="Reorder 2D Array (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (U8).vi"/>
-               <Item Name="Reorder 2D Array (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (Variant).vi"/>
-               <Item Name="Reorder 2D Array (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array (xxx).vi"/>
-               <Item Name="Reorder 2D Array2 (Boolean).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (Boolean).vi"/>
-               <Item Name="Reorder 2D Array2 (CDB).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (CDB).vi"/>
-               <Item Name="Reorder 2D Array2 (CSG).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (CSG).vi"/>
-               <Item Name="Reorder 2D Array2 (CXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (CXT).vi"/>
-               <Item Name="Reorder 2D Array2 (DBL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (DBL).vi"/>
-               <Item Name="Reorder 2D Array2 (EXT).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (EXT).vi"/>
-               <Item Name="Reorder 2D Array2 (I16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I16).vi"/>
-               <Item Name="Reorder 2D Array2 (I32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I32).vi"/>
-               <Item Name="Reorder 2D Array2 (I8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (I8).vi"/>
-               <Item Name="Reorder 2D Array2 (Path).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (Path).vi"/>
-               <Item Name="Reorder 2D Array2 (SGL).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (SGL).vi"/>
-               <Item Name="Reorder 2D Array2 (String).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (String).vi"/>
-               <Item Name="Reorder 2D Array2 (U16).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U16).vi"/>
-               <Item Name="Reorder 2D Array2 (U32).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U32).vi"/>
-               <Item Name="Reorder 2D Array2 (U8).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (U8).vi"/>
-               <Item Name="Reorder 2D Array2 (Variant).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (Variant).vi"/>
-               <Item Name="Reorder 2D Array2 (xxx).vi" Type="VI" URL="source/library/Reorder Array/Reorder 2D Array2 (xxx).vi"/>
-            </Item>
-            <Item Name="Reverse 2D Array" Type="Folder">
-               <Item Name="Reverse 2D Array (Boolean).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (Boolean).vi"/>
-               <Item Name="Reverse 2D Array (CDB).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (CDB).vi"/>
-               <Item Name="Reverse 2D Array (CSG).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (CSG).vi"/>
-               <Item Name="Reverse 2D Array (CXT).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (CXT).vi"/>
-               <Item Name="Reverse 2D Array (DBL).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (DBL).vi"/>
-               <Item Name="Reverse 2D Array (EXT).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (EXT).vi"/>
-               <Item Name="Reverse 2D Array (I16).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I16).vi"/>
-               <Item Name="Reverse 2D Array (I32).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I32).vi"/>
-               <Item Name="Reverse 2D Array (I8).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (I8).vi"/>
-               <Item Name="Reverse 2D Array (Path).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (Path).vi"/>
-               <Item Name="Reverse 2D Array (SGL).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (SGL).vi"/>
-               <Item Name="Reverse 2D Array (String).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (String).vi"/>
-               <Item Name="Reverse 2D Array (U16).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U16).vi"/>
-               <Item Name="Reverse 2D Array (U32).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U32).vi"/>
-               <Item Name="Reverse 2D Array (U8).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (U8).vi"/>
-               <Item Name="Reverse 2D Array (Variant).vi" Type="VI" URL="source/library/Reverse 2D Array/Reverse 2D Array (Variant).vi"/>
-            </Item>
-            <Item Name="Search Array" Type="Folder">
-               <Item Name="Search 1D Array (Boolean).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (Boolean).vi"/>
-               <Item Name="Search 1D Array (CDB).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (CDB).vi"/>
-               <Item Name="Search 1D Array (CSG).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (CSG).vi"/>
-               <Item Name="Search 1D Array (CXT).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (CXT).vi"/>
-               <Item Name="Search 1D Array (DBL).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (DBL).vi"/>
-               <Item Name="Search 1D Array (EXT).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (EXT).vi"/>
-               <Item Name="Search 1D Array (I16).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I16).vi"/>
-               <Item Name="Search 1D Array (I32).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I32).vi"/>
-               <Item Name="Search 1D Array (I8).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (I8).vi"/>
-               <Item Name="Search 1D Array (Path).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (Path).vi"/>
-               <Item Name="Search 1D Array (SGL).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (SGL).vi"/>
-               <Item Name="Search 1D Array (String).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (String).vi"/>
-               <Item Name="Search 1D Array (U16).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U16).vi"/>
-               <Item Name="Search 1D Array (U32).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U32).vi"/>
-               <Item Name="Search 1D Array (U8).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (U8).vi"/>
-               <Item Name="Search 1D Array (Variant).vi" Type="VI" URL="source/library/Search Array/Search 1D Array (Variant).vi"/>
-            </Item>
-            <Item Name="Slice 1D Array" Type="Folder">
-               <Item Name="Slice 1D Array (BOL).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (BOL).vi"/>
-               <Item Name="Slice 1D Array (CDB).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CDB).vi"/>
-               <Item Name="Slice 1D Array (CSG).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CSG).vi"/>
-               <Item Name="Slice 1D Array (CTL-REF).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CTL-REF).vi"/>
-               <Item Name="Slice 1D Array (CXT).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (CXT).vi"/>
-               <Item Name="Slice 1D Array (DBL).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (DBL).vi"/>
-               <Item Name="Slice 1D Array (ENUM).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (ENUM).vi"/>
-               <Item Name="Slice 1D Array (ERR).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (ERR).vi"/>
-               <Item Name="Slice 1D Array (EXT).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (EXT).vi"/>
-               <Item Name="Slice 1D Array (FILE-REF).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (FILE-REF).vi"/>
-               <Item Name="Slice 1D Array (I08).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I08).vi"/>
-               <Item Name="Slice 1D Array (I16).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I16).vi"/>
-               <Item Name="Slice 1D Array (I32).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (I32).vi"/>
-               <Item Name="Slice 1D Array (MENU-REF).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (MENU-REF).vi"/>
-               <Item Name="Slice 1D Array (MENU-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (MENU-RING).vi"/>
-               <Item Name="Slice 1D Array (PATH).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (PATH).vi"/>
-               <Item Name="Slice 1D Array (PICT-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (PICT-RING).vi"/>
-               <Item Name="Slice 1D Array (SIG).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (SIG).vi"/>
-               <Item Name="Slice 1D Array (String).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (String).vi"/>
-               <Item Name="Slice 1D Array (TXT&amp;PICT-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (TXT&amp;PICT-RING).vi"/>
-               <Item Name="Slice 1D Array (TXT-RING).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (TXT-RING).vi"/>
-               <Item Name="Slice 1D Array (U08).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U08).vi"/>
-               <Item Name="Slice 1D Array (U16).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U16).vi"/>
-               <Item Name="Slice 1D Array (U32).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (U32).vi"/>
-               <Item Name="Slice 1D Array (VAR).vi" Type="VI" URL="source/library/Slice 1D Array/Slice 1D Array (VAR).vi"/>
-            </Item>
-            <Item Name="Sort Array" Type="Folder">
-               <Item Name="Sort 1D Array (CDB).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (CDB).vi"/>
-               <Item Name="Sort 1D Array (CSG).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (CSG).vi"/>
-               <Item Name="Sort 1D Array (CXT).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (CXT).vi"/>
-               <Item Name="Sort 1D Array (DBL).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (DBL).vi"/>
-               <Item Name="Sort 1D Array (EXT).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (EXT).vi"/>
-               <Item Name="Sort 1D Array (I16).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I16).vi"/>
-               <Item Name="Sort 1D Array (I32).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I32).vi"/>
-               <Item Name="Sort 1D Array (I8).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (I8).vi"/>
-               <Item Name="Sort 1D Array (Path).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (Path).vi"/>
-               <Item Name="Sort 1D Array (SGL).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (SGL).vi"/>
-               <Item Name="Sort 1D Array (String).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (String).vi"/>
-               <Item Name="Sort 1D Array (U16).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U16).vi"/>
-               <Item Name="Sort 1D Array (U32).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U32).vi"/>
-               <Item Name="Sort 1D Array (U8).vi" Type="VI" URL="source/library/Sort Array/Sort 1D Array (U8).vi"/>
-               <Item Name="Sort 2D Array (CDB).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (CDB).vi"/>
-               <Item Name="Sort 2D Array (CSG).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (CSG).vi"/>
-               <Item Name="Sort 2D Array (CXT).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (CXT).vi"/>
-               <Item Name="Sort 2D Array (DBL).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (DBL).vi"/>
-               <Item Name="Sort 2D Array (EXT).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (EXT).vi"/>
-               <Item Name="Sort 2D Array (I16).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I16).vi"/>
-               <Item Name="Sort 2D Array (I32).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I32).vi"/>
-               <Item Name="Sort 2D Array (I8).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (I8).vi"/>
-               <Item Name="Sort 2D Array (Path).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (Path).vi"/>
-               <Item Name="Sort 2D Array (SGL).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (SGL).vi"/>
-               <Item Name="Sort 2D Array (String).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (String).vi"/>
-               <Item Name="Sort 2D Array (U16).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U16).vi"/>
-               <Item Name="Sort 2D Array (U32).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U32).vi"/>
-               <Item Name="Sort 2D Array (U8).vi" Type="VI" URL="source/library/Sort Array/Sort 2D Array (U8).vi"/>
-            </Item>
-            <Item Name="Append or Replace Array Element.vi" Type="VI" URL="source/library/Append or Replace Array Element.vi"/>
-            <Item Name="Conditional Auto-Indexing Tunnel.vi" Type="VI" URL="source/library/Conditional Auto-Indexing Tunnel.vi"/>
-            <Item Name="Delete Elements from Array.vi" Type="VI" URL="source/library/Delete Elements from Array.vi"/>
-            <Item Name="Empty Array.vi" Type="VI" URL="source/library/Empty Array.vi"/>
-            <Item Name="Filter 1D Array.vi" Type="VI" URL="source/library/Filter 1D Array.vi"/>
-            <Item Name="Index Array Elements.vi" Type="VI" URL="source/library/Index Array Elements.vi"/>
-            <Item Name="Initialize Array from Array.vi" Type="VI" URL="source/library/Initialize Array from Array.vi"/>
-            <Item Name="Remove Duplicates from 1D Array.vi" Type="VI" URL="source/library/Remove Duplicates from 1D Array.vi"/>
-            <Item Name="Reorder Array.vi" Type="VI" URL="source/library/Reorder Array.vi"/>
-            <Item Name="Reorder Array2.vi" Type="VI" URL="source/library/Reorder Array2.vi"/>
-            <Item Name="Reverse 2D Array.vi" Type="VI" URL="source/library/Reverse 2D Array.vi"/>
-            <Item Name="Search Array.vi" Type="VI" URL="source/library/Search Array.vi"/>
-            <Item Name="Slice 1D Array.vi" Type="VI" URL="source/library/Slice 1D Array.vi"/>
-            <Item Name="Sort 2D Array.vi" Type="VI" URL="source/library/Sort 2D Array.vi"/>
-            <Item Name="Sort Array.vi" Type="VI" URL="source/library/Sort Array.vi"/>
-            <Item Name="VI Tree - array.vi" Type="VI" URL="source/library/VI Tree - array.vi"/>
          </Item>
          <Item Name="icon.bmp" Type="Document" URL="source/icon.bmp"/>
          <Item Name="oglib_array.mnu" Type="Document" URL="source/oglib_array.mnu"/>
@@ -1126,6 +1319,25 @@
          <Item Name="Reorder Array2__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder Array2__ogtk.vi"/>
       </Item>
       <Item Name="tests" Type="Folder">
+         <Item Name="Obsolete" Type="Folder">
+            <Item Name="TEST - Initialize Array from Array - Inputs.ctl" Type="VI" URL="tests/TEST - Initialize Array from Array - Inputs.ctl"/>
+            <Item Name="TEST - Initialize Array from Array - Outputs.ctl" Type="VI" URL="tests/TEST - Initialize Array from Array - Outputs.ctl"/>
+            <Item Name="TEST - Initialize Array from Array.vi" Type="VI" URL="tests/TEST - Initialize Array from Array.vi"/>
+            <Item Name="TEST - Initialize Array to Boolean Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Boolean Array.vi"/>
+            <Item Name="TEST - Initialize Array to DBL Array.vi" Type="VI" URL="tests/TEST - Initialize Array to DBL Array.vi"/>
+            <Item Name="TEST - Initialize Array to EXT Array.vi" Type="VI" URL="tests/TEST - Initialize Array to EXT Array.vi"/>
+            <Item Name="TEST - Initialize Array to I64 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I64 Array.vi"/>
+            <Item Name="TEST - Initialize Array to I16 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I16 Array.vi"/>
+            <Item Name="TEST - Initialize Array to I32 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I32 Array.vi"/>
+            <Item Name="TEST - Initialize Array to I8 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I8 Array.vi"/>
+            <Item Name="TEST - Initialize Array to Path Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Path Array.vi"/>
+            <Item Name="TEST - Initialize Array to String Array.vi" Type="VI" URL="tests/TEST - Initialize Array to String Array.vi"/>
+            <Item Name="TEST - Initialize Array to U64 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U64 Array.vi"/>
+            <Item Name="TEST - Initialize Array to U16 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U16 Array.vi"/>
+            <Item Name="TEST - Initialize Array to U32 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U32 Array.vi"/>
+            <Item Name="TEST - Initialize Array to U8 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U8 Array.vi"/>
+            <Item Name="TEST - Initialize Array to Variant Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Variant Array.vi"/>
+         </Item>
          <Item Name="Array Test.vi" Type="VI" URL="tests/Array Test.vi"/>
          <Item Name="exclused_vis.txt" Type="Document" URL="tests/exclused_vis.txt"/>
          <Item Name="Interconvert SGL and Variant Arrays.vi" Type="VI" URL="tests/Interconvert SGL and Variant Arrays.vi"/>
@@ -1155,23 +1367,6 @@
          <Item Name="TEST - Index Array Elements - Inputs.ctl" Type="VI" URL="tests/TEST - Index Array Elements - Inputs.ctl"/>
          <Item Name="TEST - Index Array Elements - Outputs.ctl" Type="VI" URL="tests/TEST - Index Array Elements - Outputs.ctl"/>
          <Item Name="TEST - Index Array Elements.vi" Type="VI" URL="tests/TEST - Index Array Elements.vi"/>
-         <Item Name="TEST - Initialize Array from Array - Inputs.ctl" Type="VI" URL="tests/TEST - Initialize Array from Array - Inputs.ctl"/>
-         <Item Name="TEST - Initialize Array from Array - Outputs.ctl" Type="VI" URL="tests/TEST - Initialize Array from Array - Outputs.ctl"/>
-         <Item Name="TEST - Initialize Array from Array.vi" Type="VI" URL="tests/TEST - Initialize Array from Array.vi"/>
-         <Item Name="TEST - Initialize Array to Boolean Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Boolean Array.vi"/>
-         <Item Name="TEST - Initialize Array to DBL Array.vi" Type="VI" URL="tests/TEST - Initialize Array to DBL Array.vi"/>
-         <Item Name="TEST - Initialize Array to EXT Array.vi" Type="VI" URL="tests/TEST - Initialize Array to EXT Array.vi"/>
-         <Item Name="TEST - Initialize Array to I64 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I64 Array.vi"/>
-         <Item Name="TEST - Initialize Array to I16 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I16 Array.vi"/>
-         <Item Name="TEST - Initialize Array to I32 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I32 Array.vi"/>
-         <Item Name="TEST - Initialize Array to I8 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to I8 Array.vi"/>
-         <Item Name="TEST - Initialize Array to Path Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Path Array.vi"/>
-         <Item Name="TEST - Initialize Array to String Array.vi" Type="VI" URL="tests/TEST - Initialize Array to String Array.vi"/>
-         <Item Name="TEST - Initialize Array to U64 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U64 Array.vi"/>
-         <Item Name="TEST - Initialize Array to U16 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U16 Array.vi"/>
-         <Item Name="TEST - Initialize Array to U32 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U32 Array.vi"/>
-         <Item Name="TEST - Initialize Array to U8 Array.vi" Type="VI" URL="tests/TEST - Initialize Array to U8 Array.vi"/>
-         <Item Name="TEST - Initialize Array to Variant Array.vi" Type="VI" URL="tests/TEST - Initialize Array to Variant Array.vi"/>
          <Item Name="TEST - Remove Duplicates from 1D Array - Inputs.ctl" Type="VI" URL="tests/TEST - Remove Duplicates from 1D Array - Inputs.ctl"/>
          <Item Name="TEST - Remove Duplicates from 1D Array - Outputs.ctl" Type="VI" URL="tests/TEST - Remove Duplicates from 1D Array - Outputs.ctl"/>
          <Item Name="TEST - Remove Duplicates from 1D Array.vi" Type="VI" URL="tests/TEST - Remove Duplicates from 1D Array.vi"/>
@@ -1196,6 +1391,12 @@
          <Item Name="TEST - TEMPLATE_SCALAR.vit" Type="VI" URL="tests/TEST - TEMPLATE_SCALAR.vit"/>
          <Item Name="TEST - TEMPLATE_VECTOR.vit" Type="VI" URL="tests/TEST - TEMPLATE_VECTOR.vit"/>
          <Item Name="Test VI Refnum.ctl" Type="VI" URL="tests/Test VI Refnum.ctl"/>
+         <Item Name="TestClass.lvclass" Type="LVClass" URL="tests/TestClass/TestClass.lvclass">
+            <Item Name="TestClass.ctl" Type="Class Private Data" URL="tests/TestClass/TestClass.lvclass/TestClass.ctl"/>
+            <Item Name="SetValue.vi" Type="VI" URL="tests/TestClass/SetValue.vi"/>
+            <Item Name="GetValue.vi" Type="VI" URL="tests/TestClass/GetValue.vi"/>
+         </Item>
+         <Item Name="GetValue(Generic).vi" Type="VI" URL="tests/TestClass/GetValue(Generic).vi"/>
       </Item>
       <Item Name="tools" Type="Folder">
          <Item Name="Polymorphizer" Type="Folder">
@@ -1239,6 +1440,7 @@
             <Item Name="Numeric Test - xxx, yyy, zzz.vi" Type="VI" URL="tools/Polymorphizer/Numeric Test - xxx, yyy, zzz.vi"/>
             <Item Name="Polymorphizer.vi" Type="VI" URL="tools/Polymorphizer/Polymorphizer.vi"/>
          </Item>
+         <Item Name="AddDataType To Test.vi" Type="VI" URL="tests/AddDataType To Test.vi"/>
       </Item>
       <Item Name="build.vi" Type="VI" URL="build.vi"/>
       <Item Name="test.vi" Type="VI" URL="test.vi"/>
