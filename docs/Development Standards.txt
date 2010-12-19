@@ -1,3 +1,0 @@
-* For all polymorphic array functions, the member that handles the DBL datatype should be the default member, for consistency with LabVIEW Array primitives
-
-* All poly members should have the same VI Description, for simplicity of development process

@@ -1,4 +1,0 @@
-2007-03-28
-[NEW] Added new VI "Delete Elements from Array" that allows deleting an array with an array of indices (pointers)
-[NEW] Added new VI "Reorder Array2" reorders a 1D or 2D array.  2D arrays are reodered by row or column
-[MOD] Deprecated "Reorder Array", which is superceded by "Reorder Array2"

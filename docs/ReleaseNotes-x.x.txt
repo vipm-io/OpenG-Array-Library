@@ -1,7 +1,0 @@
-This release (1) adds 100% unit test coverage during library build, (2) adds 
-BSD licensing of library VIs, (3) new VI "Reorder Array" that allows 
-reordering an array by pointers, (4) new VI "Search Array" that returns all 
-matching elements, (5) new VI "Sort Array" that handles both 1D and 2D 
-arrays and allows specifying ascending or descending order, (6) new VI 
-"Index Array Elements" for indexing an array with an array of indices 
-(pointers), and (7)  other fixes and improvements (see changelog).

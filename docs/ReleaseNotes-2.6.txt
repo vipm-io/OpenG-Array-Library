@@ -1,5 +1,0 @@
-This release (1) ads a new VI "Delete Elements from Array" that allows 
-deleting an array with an array of indices (pointers), (2) ads a new 
-VI "Reorder Array" that allows deleting elements from an array by 
-pointers, and (3) deprecates "Reorder Array" superceded by "Reorder 
-Array2" that reorders 1D or 2D arrays by pointers.

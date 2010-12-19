@@ -1,8 +1,0 @@
-2004-03-11 
-[FIX] "Conditional Auto-Indexing Tunnel.vi" - added "To U32"
-      conversion to allow arrays longer than 65k.
-
-2003-10-25 
-[MOD] Changed "Sort 2D Array" algorithm to bundled-pointer
-      native sort.  It fixes a bug in "Sort 2D Array (String)"
-      and is also faster.
