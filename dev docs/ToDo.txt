@@ -1,10 +1,19 @@
+----------------------------------------
+4.0.0.7 Release, Developer Notes, 06-04-2011
+----------------------------------------
+[Excluded files]
+The following files\folders in the source\library directory have been excluded from the .vipb file and are not linked in the VI Tree:
+  - Append or Replace Array Element (all contents)
+  - Initialize Array from Array (all contents)
+  - Append or Replace Array Element.vi
+  - Initialize Array from Array.vi
+They should be moved to candidates, but to avoid reshuffling twice have been left this way for this release.
+
+[XXX-files]
+These template files are included in the source\library folder however, they should be outside of the source folder. They have been excluded in the .vipb file but should be moved after checking how this impacts the polymorphizer tool (have not looked into this yet).
+
+----------------------------------------
+New VI Ideas
+----------------------------------------
 - Create an Index Array that accepts an array of indices as an input
-
-[Old]
-The following files\folders in the Source directory aren't included in the Tree VI:
-- Append or Replace Array Element
-- Initialize Array from Array
-- Append or Replace Array Element.vi
-- Initialize Array from Array.vi
-
-XXX-files 
+----------------------------------------

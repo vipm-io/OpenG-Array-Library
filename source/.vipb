@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-19 20:21:08" Modified_Date="2011-01-23 19:01:09" Creator="Jonathon Green" Comments="" ID="88984c62609cf3c783681f4194ca52ef">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-19 20:21:08" Modified_Date="2011-04-06 16:20:30" Creator="Jonathon Green" Comments="" ID="0ddf4feb61b4b4f22cc01d5a59ccef47">
   <Library_General_Settings>
     <Package_File_Name>oglib_array</Package_File_Name>
-    <Library_Version>4.0.0.2</Library_Version>
+    <Library_Version>4.0.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -126,6 +126,81 @@ Package build with VIPM 2010
       <Exclusions>
         <Path>user docs</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>library\VI Tree - xxx- Files.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Sort Array\Sort 2D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Slice 1D Array\Slice 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Search Array\Search 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Reverse 2D Array\Reverse 2D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Reorder Array\Reorder 2D Array2 (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Remove Duplicates from 1D Array\Remove Duplicates from 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Initialize Array from Array\Initialize 2D Array (xxx) from 2D Array (yyy).vit</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Index Array Elements\Index 2D Array Elements (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Filter 1D Array\Filter 1D Array with Scalar (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Empty Array\Empty 2D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Delete Elements from Array\Delete Elements from 2D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Delete Elements from Array\Delete Elements from 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Conditional Auto-Indexing Tunnel\Conditional Auto-Indexing Tunnel (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Filter 1D Array\Filter 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Empty Array\Empty 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Index Array Elements\Index 1D Array Elements (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Reorder Array\Reorder 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Reorder Array\Reorder 2D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Sort Array\Sort 1D Array (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Reorder Array\Reorder 1D Array2 (xxx).vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Initialize Array from Array</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Append or Replace Array Element</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Append or Replace Array Element.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>library\Initialize Array from Array.vi</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>user docs\License Agreement.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -152,7 +227,7 @@ Package build with VIPM 2010
       <Functions_Palette_Information>
         <Virtual_Palette_Base_Path>Functions</Virtual_Palette_Base_Path>
         <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
-        <Syncing_MNU_file/>
+        <Syncing_MNU_file>&lt;Not A Path&gt;</Syncing_MNU_file>
       </Functions_Palette_Information>
     </Palette_Sets>
     <Install_Requirements>
