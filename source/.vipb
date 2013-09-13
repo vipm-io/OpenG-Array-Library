@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2010-12-19 20:21:08" Modified_Date="2011-09-16 13:07:23" Creator="Jonathon Green" Comments="" ID="30ff008803c58eb325bc616264e9eaf7">
+<VI_Package_Builder_Settings Version="0.5" Created_Date="2010-12-19 20:21:08" Modified_Date="2013-09-12 18:11:52" Creator="Jonathon Green" Comments="" ID="5965d290356c97c43a680e57bd3de8bb">
   <Library_General_Settings>
     <Package_File_Name>oglib_array</Package_File_Name>
-    <Library_Version>4.1.0.14</Library_Version>
+    <Library_Version>4.1.1.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -35,7 +35,8 @@
       <Copyright>Copyright (c) 2002-2007 Cal-Bay Systems, Inc., Jim Kring; 2006-2007 MKS Instruments, Inc.; 2010-2011 Jonathon Green</Copyright>
       <Packager>OpenG.org</Packager>
       <URL>http://wiki.openg.org/Oglib_array</URL>
-      <Release_Notes>[FIX] 3390029 - 'Delete elements from 2D array.vi' outputs incorrect result</Release_Notes>
+      <Release_Notes>Package build with VIPM 2013
+[FIX] 126 - File Library Fix for QuickDrop and Shortcut Palettes: Add (OpenG) Suffix to OpenG VIs that conflict with built-ins</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -81,6 +82,16 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Help_Menu>
+      <Project_Templates>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path/>
+      </Project_Templates>
+      <Project_Provider>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path/>
+      </Project_Provider>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -104,6 +115,7 @@
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
+        <Locked_Only>false</Locked_Only>
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
@@ -212,6 +224,7 @@
         <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
         <Syncing_MNU_file>&lt;Not A Path&gt;</Syncing_MNU_file>
       </Functions_Palette_Information>
+      <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
     </Palette_Sets>
     <Install_Requirements>
       <All_Windows>true</All_Windows>
@@ -223,6 +236,10 @@
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
     </Install_Requirements>
+    <LabVIEW>
+      <Shutdown_LabVIEW_Before_Package_Install>false</Shutdown_LabVIEW_Before_Package_Install>
+      <Start_LabVIEW_After_Package_Install>false</Start_LabVIEW_After_Package_Install>
+    </LabVIEW>
   </Advanced_Settings>
   <Library_Palette_Definition>
     <Functions_Palette_Data>
@@ -247,7 +264,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Conditional Auto-Indexing Tunnel.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Conditional Auto-Indexing Tunnel</NameSub_Menu_Name>
         <Short_Name>Conditional Auto-Indexing Tunnel</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -256,11 +273,12 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Conditional Auto-Indexing Tunnel.vi</Path>
+        <VI_Title>Conditional Auto-Indexing Tunnel</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Filter 1D Array.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Filter 1D Array</NameSub_Menu_Name>
         <Short_Name>Filter 1D Array</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -269,11 +287,12 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Filter 1D Array.vi</Path>
+        <VI_Title>Filter 1D Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Remove Duplicates from 1D Array.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Remove Duplicates from 1D Array</NameSub_Menu_Name>
         <Short_Name>Remove Duplicates from 1D Array</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -282,6 +301,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Remove Duplicates from 1D Array.vi</Path>
+        <VI_Title>Remove Duplicates from 1D Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -295,11 +315,12 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Reverse 2D Array.vi</Path>
+        <VI_Title>Reverse 2D Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Slice 1D Array.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Slice 1D Array</NameSub_Menu_Name>
         <Short_Name>Slice 1D Array</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -308,11 +329,12 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Slice 1D Array.vi</Path>
+        <VI_Title>Slice 1D Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Reorder Array2.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Reorder Array</NameSub_Menu_Name>
         <Short_Name>Reorder Array2</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -321,11 +343,12 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Reorder Array2.vi</Path>
+        <VI_Title>Reorder Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Index Array Elements.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Index Array Elements</NameSub_Menu_Name>
         <Short_Name>Index Array Elements</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -334,6 +357,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Index Array Elements.vi</Path>
+        <VI_Title>Index Array Elements</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -347,6 +371,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Search Array.vi</Path>
+        <VI_Title>Search Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -360,11 +385,12 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Delete Elements from Array.vi</Path>
+        <VI_Title>Delete Elements from Array</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Empty Array.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Empty Array?</NameSub_Menu_Name>
         <Short_Name>Empty Array</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -373,6 +399,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Empty Array.vi</Path>
+        <VI_Title>Empty Array? (OpenG)</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -386,7 +413,9 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>library\Sort Array.vi</Path>
+        <VI_Title>Sort Array</VI_Title>
       </Items_Data>
+      <GUID>C9E891CC5B516BDD18EF33182A2859DB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
