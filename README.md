@@ -1,2 +1,3 @@
 # OpenG Array Library
-The JKI-supported branch of the OpenG Array Library (a.k.a. oglib_array)
+
+[Install the OpenG Array Library with VIPM](https://www.vipm.io/package/oglib_array/) (a.k.a. oglib\_array)
