@@ -37,7 +37,7 @@ jobs:
           # read the LabVIEW version from the first line of .lvversion file
           LV_VERSION=$(head -n 1 .lvversion)
           # convert to integer
-          LV_VERSION=$( printf "%d" "$LV_VERSION" )
+          LV_VERSION=$( echo $LV_VERSION | sed 's/\..*//' )
           source .venv/bin/activate
           vi_validate \
             --path source \
