@@ -35,7 +35,9 @@ jobs:
         run: |
           echo running pylavi tests
           # read the LabVIEW version from the .lvversion file
-          LV_VERSION=$(<.lvversion)
+          LV_VERSION=$( <.lvversion )
+          # convert to integer
+          LV_VERSION=$( printf "%d" LV_VERSION )
           source .venv/bin/activate
           vi_validate \
             --path source \
