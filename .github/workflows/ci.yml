@@ -35,9 +35,11 @@ jobs:
         run: |
           echo running pylavi tests
           # read the LabVIEW version from the first line of .lvversion file
-          LV_VERSION=$(head -n 1 .lvversion)
+          LV_VERSION="$(head -n 1 .lvversion)"
+          echo "LV_VERSION: $LV_VERSION"
           # convert to integer
           LV_VERSION=` echo $LV_VERSION | sed 's/\..*//' `
+          echo "LV_VERSION: $LV_VERSION"
           source .venv/bin/activate
           vi_validate \
             --path source \
