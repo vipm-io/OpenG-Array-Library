@@ -34,14 +34,20 @@ jobs:
       - name: Run pylavi Tests
         shell: bash
         run: |
-          echo running pylavi tests
+
           # read the LabVIEW version from the first line of .lvversion file
           LV_VERSION="$(head -n 1 .lvversion)"
-          echo "LV_VERSION: $LV_VERSION"
           # convert to integer
           LV_VERSION=` echo $LV_VERSION | sed 's/\..*//' `
-          echo "$LV_VERSION < LV_VERSION < $((LV_VERSION+1))"
           source .venv/bin/activate
+
+          # print helpful info
+          echo "Verifying:"
+          echo "  - Save Version is $LV_VERSION"
+          echo "  - Separate Compiled Code"
+          echo "  - No Breakpoints"
+
+          # call pylavi
           vi_validate \
             --path source \
             --path tests \
@@ -49,4 +55,3 @@ jobs:
             --skip *.vit \
             --no-code \
             --breakpoints
-          echo finished pylavi tests
