@@ -45,7 +45,7 @@ jobs:
           vi_validate \
             --path source \
             --path tests \
-            --g 20 --l 21 \ 
+            -g $LV_VERSION -l $((LV_VERSION+1)) \ 
             --skip *.vit \
             --no-code \
             --breakpoints
