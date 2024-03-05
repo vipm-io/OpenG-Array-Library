@@ -42,7 +42,7 @@ jobs:
           vi_validate \
             --path source \
             --path tests \
-            --gt $LV_VERSION --lt $((LV_VERSION+1)) \ 
+            --gt "$LV_VERSION" --lt "$((LV_VERSION+1))" \ 
             --skip *.vit \
             --no-code \
             --breakpoints
