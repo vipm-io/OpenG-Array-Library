@@ -32,6 +32,7 @@ jobs:
           uv pip install pylavi
 
       - name: Run pylavi Tests
+        shell: bash
         run: |
           echo running pylavi tests
           # read the LabVIEW version from the first line of .lvversion file
