@@ -42,7 +42,6 @@ jobs:
           LV_VERSION=` echo $LV_VERSION | sed 's/\..*//' `
           echo "$LV_VERSION < LV_VERSION < $((LV_VERSION+1))"
           source .venv/bin/activate
-          vi_validate --path source --gt 20
           vi_validate \
             --path source \
             --path tests \
