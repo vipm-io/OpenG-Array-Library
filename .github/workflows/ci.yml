@@ -40,7 +40,7 @@ jobs:
           echo "LV_VERSION: $LV_VERSION"
           # convert to integer
           LV_VERSION=` echo $LV_VERSION | sed 's/\..*//' `
-          echo "LV_VERSION: $LV_VERSION"
+          echo "$LV_VERSION < LV_VERSION < $((LV_VERSION+1))"
           source .venv/bin/activate
           vi_validate \
             --path source \
