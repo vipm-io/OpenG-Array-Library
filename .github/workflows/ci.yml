@@ -11,7 +11,7 @@ on:
 jobs:
 
   shared-ci-checks:
-    uses: vipm-io/OpenG-Tookit/blob/main/.github/workflows/ci-checks.yml@main
+    uses: vipm-io/OpenG-Tookit/.github/workflows/ci-checks.yml@main
     with:
       labview-version: 2.0
 
