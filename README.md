@@ -1,5 +1,7 @@
 # OpenG Array Library
 
+[![All Contributors](https://img.shields.io/github/all-contributors/vipm-io/OpenG-Array-Library?color=ee8449&style=flat-square)](#contributors)
+
 The OpenG Array Library package contains several routines for operating on array data.
 
 ## Installation
