@@ -24,6 +24,7 @@ The OpenG Array Library package contains several routines for operating on array
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bas-vE"><img src="https://avatars.githubusercontent.com/u/16207111?v=4?s=100" width="100px;" alt="Basve"/><br /><sub><b>Basve</b></sub></a><br /><a href="#code-Bas-vE" title="Code">💻</a> <a href="#maintenance-Bas-vE" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jimkring"><img src="https://avatars.githubusercontent.com/u/381432?v=4?s=100" width="100px;" alt="Jim Kring"/><br /><sub><b>Jim Kring</b></sub></a><br /><a href="#code-jimkring" title="Code">💻</a> <a href="#maintenance-jimkring" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
