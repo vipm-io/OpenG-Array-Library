@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-19 20:21:08" Modified_Date="2024-03-05 00:16:35" Creator="Jonathon Green" Comments="" ID="a038e711b11e19e9b809c94ce9d690f0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-19 20:21:08" Modified_Date="2024-03-24 17:58:58" Creator="Jonathon Green" Comments="" ID="0d1748c015567f45ae2228c75952f25c">
   <Library_General_Settings>
     <Package_File_Name>oglib_array</Package_File_Name>
-    <Library_Version>6.0.0.15</Library_Version>
+    <Library_Version>6.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,12 +32,16 @@
       <Copyright>Copyright (c) 2002-2021 Jim Kring, Jonathon Green, Cal-Bay Systems, Inc., MKS Instruments, JKI</Copyright>
       <Packager>OpenG</Packager>
       <URL>https://www.vipm.io/package/oglib_array/</URL>
-      <Release_Notes>## [6.0.0] - 2024-03-04
-### Changed
-- Requires LV2020 or greater (sources upgraded to LV2020) [Issue #1]
-- Separated compiled code (Marked all as Source Only VIs) [Issue #2]
+      <Release_Notes>## [6.0.0] - 2024-03-24
+### Changes:
+- Requires LabVIEW 2020 or greater
+- Moved library VIs into Library (`openg_array.lvlib`) #5
+- Upgraded source code to LV2020 format #1
+- Marked all as Separate Compiled Code #2
 
-Kudos to contributors Jim Kring (@jimkring) for their work on this release.</Release_Notes>
+Kudos to contributors@Bas-vE and @jimkring for their work on this release.
+
+Important: Callers of this package will relink automatically to the new Library (openg_variant.lvlib) that contains this package. However, if you subsequently downgrade this package to version 5.x or older, your callers will need to be manually relinked to the older version (without the Library namespace).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -439,7 +443,7 @@ Kudos to contributors Jim Kring (@jimkring) for their work on this release.</Rel
         <Path>library\Sort Array.vi</Path>
         <VI_Title>Sort Array</VI_Title>
       </Items_Data>
-      <GUID>7BC2E66BA81F6208B1B8E0A8302E428B</GUID>
+      <GUID>177F8CAE5A1D24BB25FE122C96D45FD6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
