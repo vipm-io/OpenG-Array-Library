@@ -1,4 +1,22 @@
 {
   "projectName": "OpenG-Array-Library",
-  "projectOwner": "vipm-io"
+  "projectOwner": "vipm-io",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Bas-vE",
+      "name": "Basve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16207111?v=4",
+      "profile": "https://github.com/Bas-vE",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    }
+  ]
 }
