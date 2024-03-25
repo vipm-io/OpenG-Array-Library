@@ -13,4 +13,4 @@ jobs:
   ci-checks:
     uses: vipm-io/OpenG-Tookit/.github/workflows/ci-checks.yml@main
     with:
-      labview-version: 2.0
+      labview-version: 20.0
