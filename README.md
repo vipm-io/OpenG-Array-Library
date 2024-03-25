@@ -1,5 +1,6 @@
 # OpenG Array Library
-
+[![Image](https://www.vipm.io/package/oglib_array/badge.svg?metric=installs)](https://www.vipm.io/package/oglib_array/)
+[![Image](https://www.vipm.io/package/oglib_array/badge.svg?metric=stars)](https://www.vipm.io/package/oglib_array/)
 [![All Contributors](https://img.shields.io/github/all-contributors/vipm-io/OpenG-Array-Library?color=ee8449&style=flat-square)](#contributors)
 
 The OpenG Array Library package contains several routines for operating on array data.
