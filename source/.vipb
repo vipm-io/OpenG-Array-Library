@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-19 20:21:08" Modified_Date="2024-03-24 18:33:49" Creator="Jonathon Green" Comments="" ID="e41d83ab612451ad074904c850cbb9c2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2010-12-19 20:21:08" Modified_Date="2024-03-24 18:44:09" Creator="Jonathon Green" Comments="" ID="1212f85336c41212495ccbfb67c4da0a">
   <Library_General_Settings>
     <Package_File_Name>oglib_array</Package_File_Name>
-    <Library_Version>6.0.0.18</Library_Version>
+    <Library_Version>6.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -29,7 +29,7 @@
     <Description>
       <One_Line_Description_Summary>OpenG Array Library</One_Line_Description_Summary>
       <Description>The OpenG Array Library package contains several routines for operating on array data.</Description>
-      <Copyright>Copyright (c) 2002-2025 Project Contributors (see CONTRIBUTORS.md)</Copyright>
+      <Copyright>Copyright (c) 2002-2024 Project Contributors (see CONTRIBUTORS.md)</Copyright>
       <Packager>VIPM Community</Packager>
       <URL>https://www.vipm.io/package/oglib_array/</URL>
       <Release_Notes>- Requires LabVIEW 2020 or greater
